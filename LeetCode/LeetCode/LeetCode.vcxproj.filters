@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Problem 10-Regular Expression Matching">
+      <UniqueIdentifier>{31d2f6c9-22fc-4e3f-b3cc-45c2be09f06d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +27,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 10-Regular Expression Matching\Solution10.h">
+      <Filter>Problem 10-Regular Expression Matching</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +37,9 @@
     </ClCompile>
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 10-Regular Expression Matching\Solution10.cpp">
+      <Filter>Problem 10-Regular Expression Matching</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
