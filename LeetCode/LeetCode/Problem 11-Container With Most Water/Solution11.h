@@ -7,5 +7,6 @@ public:
 public:
 	int maxArea(vector<int>& height);
 	int maxAreaEx(vector<int>& height);
+	int maxAreaEx2(vector<int>& height);
 };
 

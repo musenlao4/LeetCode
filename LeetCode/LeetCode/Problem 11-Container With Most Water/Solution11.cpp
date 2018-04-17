@@ -108,3 +108,26 @@ int Solution11::maxAreaEx(vector<int>& height)
 	}
 	return nMaxContainer;
 }
+
+int Solution11::maxAreaEx2(vector<int>& height)
+{
+	int nLeft = 0;
+	int nRight = height.size() - 1;
+	int nMaxContainer = 0;
+	int nContainer = 0;
+	while (nLeft < nRight)
+	{
+		if (height[nLeft] < height[nRight])
+		{
+			nContainer = (nRight - nLeft) * height[nLeft];
+			++nLeft;
+		}
+		else
+		{
+			nContainer = (nRight - nLeft) * height[nRight];
+			--nRight;
+		}
+		nMaxContainer = nMaxContainer > nContainer ? nMaxContainer : nContainer;
+	}
+	return nMaxContainer;
+}
