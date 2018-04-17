@@ -6,5 +6,6 @@ public:
 	~Solution11();
 public:
 	int maxArea(vector<int>& height);
+	int maxAreaEx(vector<int>& height);
 };
 
