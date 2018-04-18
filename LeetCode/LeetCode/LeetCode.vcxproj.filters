@@ -19,6 +19,9 @@
     <Filter Include="Problem 11-Container With Most Water">
       <UniqueIdentifier>{16c9c178-265d-4d15-9420-a7459618bbe6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 12-Integer to Roman">
+      <UniqueIdentifier>{35953dbe-314b-4663-aa28-c65b7bd9674b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,6 +39,9 @@
     <ClInclude Include="Problem 11-Container With Most Water\Solution11.h">
       <Filter>Problem 11-Container With Most Water</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 12-Integer to Roman\Solution12.h">
+      <Filter>Problem 12-Integer to Roman</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -49,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="Problem 11-Container With Most Water\Solution11.cpp">
       <Filter>Problem 11-Container With Most Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 12-Integer to Roman\Solution12.cpp">
+      <Filter>Problem 12-Integer to Roman</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
