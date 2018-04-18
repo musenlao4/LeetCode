@@ -22,6 +22,15 @@
     <Filter Include="Problem 12-Integer to Roman">
       <UniqueIdentifier>{35953dbe-314b-4663-aa28-c65b7bd9674b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 13-Roman to Integer">
+      <UniqueIdentifier>{951c1e31-b828-4e86-9c25-abc3aa9fd5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 14-Longest Common Prefix">
+      <UniqueIdentifier>{450f667e-c85b-4440-9fc1-273cf4e9e359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 15-3Sum">
+      <UniqueIdentifier>{198c8fcb-c22a-4852-b0e5-95b6066d21d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,6 +51,15 @@
     <ClInclude Include="Problem 12-Integer to Roman\Solution12.h">
       <Filter>Problem 12-Integer to Roman</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 13-Roman to Integer\Solution13.h">
+      <Filter>Problem 13-Roman to Integer</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 14-Longest Common Prefix\Solution14.h">
+      <Filter>Problem 14-Longest Common Prefix</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 15-3Sum\Solution15.h">
+      <Filter>Problem 15-3Sum</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -58,6 +76,15 @@
     </ClCompile>
     <ClCompile Include="Problem 12-Integer to Roman\Solution12.cpp">
       <Filter>Problem 12-Integer to Roman</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 13-Roman to Integer\Solution13.cpp">
+      <Filter>Problem 13-Roman to Integer</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 14-Longest Common Prefix\Solution14.cpp">
+      <Filter>Problem 14-Longest Common Prefix</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 15-3Sum\Solution15.cpp">
+      <Filter>Problem 15-3Sum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
