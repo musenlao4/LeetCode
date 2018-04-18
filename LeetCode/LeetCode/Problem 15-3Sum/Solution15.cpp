@@ -36,61 +36,65 @@ vector<vector<int>> Solution15::threeSum(vector<int>& nums)
 	int nLeft = 0;
 	int nRight = nums.size() - 1;
 	int nCenter = 0;
-	while (nRight - nLeft > 1)
+	// 一个负数、或0
+	while (nLeft < nRight && nums[nLeft] <= 0)
 	{
 		int nTwoSum = nums[nLeft] + nums[nRight];
-		int nTripletsSum = nTwoSum;
 		if (nTwoSum > 0)
-		{
-			nCenter = nLeft + 1;
-			while (nTripletsSum > 0 && nCenter < nRight)
-			{
-				nTripletsSum = nTwoSum + nums[nCenter];
-				++nCenter;
-			}
-			if (nTripletsSum == 0)
-			{
-				vector<int> vec = { nums[nLeft], nums[nCenter - 1], nums[nRight] };
-				vecResult.push_back(vec);
-			}
 			--nRight;
-		}
-		else if (nTwoSum < 0)
-		{
-			nCenter = nRight - 1;
-			while (nTripletsSum < 0 && nCenter > nLeft)
-			{
-				nTripletsSum = nTwoSum + nums[nCenter];
-				--nCenter;
-			}
-			if (nTripletsSum == 0)
-			{
-				vector<int> vec = { nums[nLeft], nums[nCenter + 1], nums[nRight] };
-				vecResult.push_back(vec);
-			}
-			++nLeft;
-		}
 		else
 		{
-			nCenter = nLeft + 1;
-			while (nums[nCenter] != 0 && nCenter < nRight)
-			{
-				++nCenter;
-			}
-			if (nums[nCenter] == 0)
+			nCenter = nRight - 1;
+			while (nCenter > nLeft && nums[nCenter] >=0 && nums[nCenter] + nTwoSum > 0)
+				--nCenter;
+			if (nCenter > nLeft && nums[nCenter] + nTwoSum == 0)
 			{
 				vector<int> vec = { nums[nLeft], nums[nCenter], nums[nRight] };
 				vecResult.push_back(vec);
 			}
-			while (nums[nLeft + 1] == nums[nLeft] && nLeft + 1 < nRight)
-				++nLeft;
-			while (nums[nRight - 1] == nums[nRight] && nRight - 1 > nLeft)
+			while (nLeft < nRight - 1 && nums[nRight - 1] >= 0 && nums[nRight] == nums[nRight - 1])
 				--nRight;
-			if (nums[nLeft + 1] + nums[nRight - 1] > 0)
-				--nRight;
-			else
+			--nRight;
+			if (nLeft >= nRight || nums[nRight] < 0)
+			{
+				nRight = nums.size() - 1;
+				while (nLeft + 1 < nRight && nums[nLeft + 1] <= 0 && nums[nLeft] == nums[nLeft + 1])
+					++nLeft;
 				++nLeft;
+			}
 		}
 	}
+	// 一个正数
+	nLeft = 0;
+	nRight = nums.size() - 1;
+	nCenter = 0;
+	while (nLeft < nRight && nums[nRight] > 0)
+	{
+		int nTwoSum = nums[nLeft] + nums[nRight];
+		if (nTwoSum <= 0)
+			++nLeft;
+		else
+		{
+			nCenter = nLeft + 1;
+			while (nCenter < nRight && nums[nCenter] < 0 && nums[nCenter] + nTwoSum < 0)
+				++nCenter;
+			if (nCenter < nRight && nums[nCenter] + nTwoSum == 0)
+			{
+				vector<int> vec = { nums[nLeft], nums[nCenter], nums[nRight] };
+				vecResult.push_back(vec);
+			}
+			while (nLeft + 1 < nRight && nums[nLeft + 1] < 0 && nums[nLeft] == nums[nLeft + 1])
+				++nLeft;
+			++nLeft;
+			if (nLeft >= nRight || nums[nLeft] >= 0)
+			{
+				nLeft = 0;
+				while (nLeft < nRight - 1 && nums[nRight - 1] > 0 && nums[nRight] == nums[nRight - 1])
+					--nRight;
+				--nRight;
+			}
+		}
+	}
+
 	return vecResult;
 }
