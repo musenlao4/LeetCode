@@ -31,6 +31,12 @@
     <Filter Include="Problem 15-3Sum">
       <UniqueIdentifier>{198c8fcb-c22a-4852-b0e5-95b6066d21d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{a3af125f-5769-4e9d-b0e7-52e3903468dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 16-3Sum Closest">
+      <UniqueIdentifier>{3821b16d-1711-412c-87c5-b1bf854cabaf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,6 +66,12 @@
     <ClInclude Include="Problem 15-3Sum\Solution15.h">
       <Filter>Problem 15-3Sum</Filter>
     </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 16-3Sum Closest\Solution16.h">
+      <Filter>Problem 16-3Sum Closest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -85,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="Problem 15-3Sum\Solution15.cpp">
       <Filter>Problem 15-3Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 16-3Sum Closest\Solution16.cpp">
+      <Filter>Problem 16-3Sum Closest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
