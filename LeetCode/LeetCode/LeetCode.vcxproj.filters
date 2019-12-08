@@ -37,6 +37,9 @@
     <Filter Include="Problem 16-3Sum Closest">
       <UniqueIdentifier>{3821b16d-1711-412c-87c5-b1bf854cabaf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 17-Letter Combinations of a Phone Number">
+      <UniqueIdentifier>{416d88ba-66a0-41be-908f-d0a40b897987}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -72,6 +75,9 @@
     <ClInclude Include="Problem 16-3Sum Closest\Solution16.h">
       <Filter>Problem 16-3Sum Closest</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 17-Letter Combinations of a Phone Number\Solution17.h">
+      <Filter>Problem 17-Letter Combinations of a Phone Number</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -100,6 +106,9 @@
     </ClCompile>
     <ClCompile Include="Problem 16-3Sum Closest\Solution16.cpp">
       <Filter>Problem 16-3Sum Closest</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 17-Letter Combinations of a Phone Number\Solution17.cpp">
+      <Filter>Problem 17-Letter Combinations of a Phone Number</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
