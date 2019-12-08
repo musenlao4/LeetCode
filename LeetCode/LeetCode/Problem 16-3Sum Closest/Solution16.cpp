@@ -12,21 +12,41 @@ Solution16::~Solution16()
 {
 }
 
-int Solution16::FindClosest(vector<int>& nums, int pos, int target)
+int Solution16::op_delta(int my_sum, int target)
 {
-	int targetRes{ target - nums[pos] };
+	return my_sum > target ? my_sum - target : target - my_sum;
 }
 
 int Solution16::threeSumClosest(vector<int>& nums, int target)
 {
 	common::FastSort<int>(nums);
 
-	int flag{ nums[0] + nums[1] + nums[2] };
-
-	for (int i = 3; i < nums.size(); ++i)
+	int sum_closest{ 0 };
+	unsigned int distance{ INT_MAX };
+	for (int x = 0; x < nums.size() - 2; ++x)
 	{
-
+		for (int y = x + 1; y < nums.size() - 1; ++y)
+		{
+			for (int z = y + 1; z < nums.size(); ++z)
+			{
+				int temp_sum = nums[x] + nums[y] + nums[z];
+				int temp_delta = op_delta(temp_sum, target);
+				if (distance == 0)
+				{
+					return sum_closest;
+				}
+				if (temp_delta < distance)
+				{
+					sum_closest = temp_sum;
+					distance = temp_delta;
+				}
+				if (temp_sum > target)
+				{
+					break;
+				}
+			}
+		}
 	}
 
-	return 0;
+	return sum_closest;
 }

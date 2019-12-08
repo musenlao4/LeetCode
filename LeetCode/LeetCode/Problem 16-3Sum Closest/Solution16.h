@@ -8,6 +8,6 @@ public:
 	int threeSumClosest(vector<int>& nums, int target);
 
 private:
-	int FindClosest(vector<int>& nums, int pos, int target);
+	int op_delta(int my_sum, int target);
 };
 
