@@ -2,17 +2,16 @@
 //
 
 #include "stdafx.h"
-#include "Problem 17-Letter Combinations of a Phone Number/Solution17.h"
+#include "Problem 18-4Sum/Solution18.h"
 #include "common/common.h"
 #include <algorithm>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Solution17 sln;
-	std::string strInput{ "23" };
-	std::vector<std::string> vec{ sln.letterCombinationsEx(strInput) };
+	Solution18 sln;
+	vector<int> input{ -1, 2, 2, -5, 0, -1, 4 };
+	vector<vector<int>> vec{ sln.fourSum(input, 3) };
 	getchar();
 
 	return 0;
 }
-

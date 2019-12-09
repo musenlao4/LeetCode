@@ -40,6 +40,9 @@
     <Filter Include="Problem 17-Letter Combinations of a Phone Number">
       <UniqueIdentifier>{416d88ba-66a0-41be-908f-d0a40b897987}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 18-4Sum">
+      <UniqueIdentifier>{f00043a5-1a4f-43b0-a089-1abe4c863dfc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -78,6 +81,9 @@
     <ClInclude Include="Problem 17-Letter Combinations of a Phone Number\Solution17.h">
       <Filter>Problem 17-Letter Combinations of a Phone Number</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 18-4Sum\Solution18.h">
+      <Filter>Problem 18-4Sum</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -109,6 +115,9 @@
     </ClCompile>
     <ClCompile Include="Problem 17-Letter Combinations of a Phone Number\Solution17.cpp">
       <Filter>Problem 17-Letter Combinations of a Phone Number</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 18-4Sum\Solution18.cpp">
+      <Filter>Problem 18-4Sum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
