@@ -2,16 +2,21 @@
 //
 
 #include "stdafx.h"
-#include "Problem 18-4Sum/Solution18.h"
+#include "Problem 20-Valid Parentheses/Solution20.h"
 #include "common/common.h"
 #include <algorithm>
 
+void test20()
+{
+	Solution20 sln;
+	string input{"([]{})"};
+	bool bRet = sln.isValid(input);
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Solution18 sln;
-	vector<int> input{ -1, 2, 2, -5, 0, -1, 4 };
-	vector<vector<int>> vec{ sln.fourSum(input, 3) };
+	test20();
 	getchar();
-
 	return 0;
 }

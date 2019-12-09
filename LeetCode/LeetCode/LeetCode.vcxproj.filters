@@ -46,6 +46,9 @@
     <Filter Include="Problem 19-Remove Nth Node From End of List">
       <UniqueIdentifier>{1230a3a6-1702-4676-a208-27ae821830ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 20-Valid Parentheses">
+      <UniqueIdentifier>{10f18cd9-88cf-448b-8f8e-19c754bf18ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -90,6 +93,9 @@
     <ClInclude Include="Problem 19-Remove Nth Node From End of List\Solution19.h">
       <Filter>Problem 19-Remove Nth Node From End of List</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 20-Valid Parentheses\Solution20.h">
+      <Filter>Problem 20-Valid Parentheses</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -127,6 +133,9 @@
     </ClCompile>
     <ClCompile Include="Problem 19-Remove Nth Node From End of List\Solution19.cpp">
       <Filter>Problem 19-Remove Nth Node From End of List</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 20-Valid Parentheses\Solution20.cpp">
+      <Filter>Problem 20-Valid Parentheses</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
