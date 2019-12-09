@@ -43,6 +43,9 @@
     <Filter Include="Problem 18-4Sum">
       <UniqueIdentifier>{f00043a5-1a4f-43b0-a089-1abe4c863dfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 19-Remove Nth Node From End of List">
+      <UniqueIdentifier>{1230a3a6-1702-4676-a208-27ae821830ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -84,6 +87,9 @@
     <ClInclude Include="Problem 18-4Sum\Solution18.h">
       <Filter>Problem 18-4Sum</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 19-Remove Nth Node From End of List\Solution19.h">
+      <Filter>Problem 19-Remove Nth Node From End of List</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -118,6 +124,9 @@
     </ClCompile>
     <ClCompile Include="Problem 18-4Sum\Solution18.cpp">
       <Filter>Problem 18-4Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 19-Remove Nth Node From End of List\Solution19.cpp">
+      <Filter>Problem 19-Remove Nth Node From End of List</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
