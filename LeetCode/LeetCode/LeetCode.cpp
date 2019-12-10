@@ -6,6 +6,7 @@
 #include "Problem 21-Merge Two Sorted Lists/Solution21.h"
 #include "Problem 22-Generate Parentheses/Solution22.h"
 #include "Problem 23-Merge k Sorted Lists/Solution23.h"
+#include "Problem 24-Swap Nodes in Pairs/Solution24.h"
 #include "common/common.h"
 #include <algorithm>
 
@@ -73,13 +74,32 @@ void test23()
 	//vec.emplace_back(l1);
 	//vec.emplace_back(l2);
 	//vec.emplace_back(l3);
-	ListNode* pRet{ sln.mergeKLists(vec) };
+	ListNode *pRet{ sln.mergeKLists(vec) };
+	printf("");
+}
+
+void test24()
+{
+	using namespace MySolution24;
+	ListNode *l{ new ListNode{ 1 } };
+	ListNode *p{ l };
+	p->next = new ListNode{ 4 };
+	p = p->next;
+	p->next = new ListNode{ 5 };
+	p = p->next;
+	p->next = new ListNode{ 6 };
+	p = p->next;
+	p->next = new ListNode{ 7 };
+	p = p->next;
+
+	Solution24 sln;
+	ListNode *pRet{ sln.swapPairs(l) };
 	printf("");
 }
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test23();
+	test24();
 	getchar();
 	return 0;
 }

@@ -58,6 +58,9 @@
     <Filter Include="Problem 23-Merge k Sorted Lists">
       <UniqueIdentifier>{3f67076a-ff3c-42dc-a4ad-041a8252c975}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 24-Swap Nodes in Pairs">
+      <UniqueIdentifier>{0e77580d-6253-45fc-bd47-a9305679c0d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -114,6 +117,9 @@
     <ClInclude Include="Problem 23-Merge k Sorted Lists\Solution23.h">
       <Filter>Problem 23-Merge k Sorted Lists</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 24-Swap Nodes in Pairs\Solution24.h">
+      <Filter>Problem 24-Swap Nodes in Pairs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -163,6 +169,9 @@
     </ClCompile>
     <ClCompile Include="Problem 23-Merge k Sorted Lists\Solution23.cpp">
       <Filter>Problem 23-Merge k Sorted Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 24-Swap Nodes in Pairs\Solution24.cpp">
+      <Filter>Problem 24-Swap Nodes in Pairs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
