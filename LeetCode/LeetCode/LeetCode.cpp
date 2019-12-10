@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Problem 20-Valid Parentheses/Solution20.h"
 #include "Problem 21-Merge Two Sorted Lists/Solution21.h"
+#include "Problem 22-Generate Parentheses/Solution22.h"
 #include "common/common.h"
 #include <algorithm>
 
@@ -37,9 +38,16 @@ void test21()
 	printf("");
 }
 
+void test22()
+{
+	Solution22 sln;
+	vector<string> vec{ sln.generateParenthesis(3) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test21();
+	test22();
 	getchar();
 	return 0;
 }

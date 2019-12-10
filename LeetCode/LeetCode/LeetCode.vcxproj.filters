@@ -52,6 +52,9 @@
     <Filter Include="Problem 21-Merge Two Sorted Lists">
       <UniqueIdentifier>{a3279a87-45bd-4533-a8d7-3e2c79e31677}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 22-Generate Parentheses">
+      <UniqueIdentifier>{f14dcef2-9583-4ed4-b606-61dcb4d92143}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -102,6 +105,9 @@
     <ClInclude Include="Problem 21-Merge Two Sorted Lists\Solution21.h">
       <Filter>Problem 21-Merge Two Sorted Lists</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 22-Generate Parentheses\Solution22.h">
+      <Filter>Problem 22-Generate Parentheses</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -145,6 +151,9 @@
     </ClCompile>
     <ClCompile Include="Problem 21-Merge Two Sorted Lists\Solution21.cpp">
       <Filter>Problem 21-Merge Two Sorted Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 22-Generate Parentheses\Solution22.cpp">
+      <Filter>Problem 22-Generate Parentheses</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
