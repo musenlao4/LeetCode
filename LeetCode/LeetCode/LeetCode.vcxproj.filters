@@ -55,6 +55,9 @@
     <Filter Include="Problem 22-Generate Parentheses">
       <UniqueIdentifier>{f14dcef2-9583-4ed4-b606-61dcb4d92143}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 23-Merge k Sorted Lists">
+      <UniqueIdentifier>{3f67076a-ff3c-42dc-a4ad-041a8252c975}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -108,6 +111,9 @@
     <ClInclude Include="Problem 22-Generate Parentheses\Solution22.h">
       <Filter>Problem 22-Generate Parentheses</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 23-Merge k Sorted Lists\Solution23.h">
+      <Filter>Problem 23-Merge k Sorted Lists</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -154,6 +160,9 @@
     </ClCompile>
     <ClCompile Include="Problem 22-Generate Parentheses\Solution22.cpp">
       <Filter>Problem 22-Generate Parentheses</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 23-Merge k Sorted Lists\Solution23.cpp">
+      <Filter>Problem 23-Merge k Sorted Lists</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
