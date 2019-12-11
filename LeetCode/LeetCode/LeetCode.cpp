@@ -2,11 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "Problem 20-Valid Parentheses/Solution20.h"
-#include "Problem 21-Merge Two Sorted Lists/Solution21.h"
-#include "Problem 22-Generate Parentheses/Solution22.h"
-#include "Problem 23-Merge k Sorted Lists/Solution23.h"
-#include "Problem 24-Swap Nodes in Pairs/Solution24.h"
+#include "headers.h"
 #include "common/common.h"
 #include <algorithm>
 
@@ -97,9 +93,28 @@ void test24()
 	printf("");
 }
 
+void test25()
+{
+	using namespace MySolution25;
+	ListNode *l{ new ListNode{ 1 } };
+	ListNode *p{ l };
+	p->next = new ListNode{ 4 };
+	p = p->next;
+	p->next = new ListNode{ 5 };
+	p = p->next;
+	p->next = new ListNode{ 6 };
+	p = p->next;
+	p->next = new ListNode{ 7 };
+	p = p->next;
+
+	Solution25 sln;
+	ListNode *pRes{ sln.reverseKGroup(l, 3) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test24();
+	test25();
 	getchar();
 	return 0;
 }

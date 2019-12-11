@@ -61,6 +61,9 @@
     <Filter Include="Problem 24-Swap Nodes in Pairs">
       <UniqueIdentifier>{0e77580d-6253-45fc-bd47-a9305679c0d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 25-Reverse Nodes in k-Group">
+      <UniqueIdentifier>{eda871e4-3169-4d69-a0a8-4dc26537ccba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -120,6 +123,12 @@
     <ClInclude Include="Problem 24-Swap Nodes in Pairs\Solution24.h">
       <Filter>Problem 24-Swap Nodes in Pairs</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 25-Reverse Nodes in k-Group\Solution25.h">
+      <Filter>Problem 25-Reverse Nodes in k-Group</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -172,6 +181,9 @@
     </ClCompile>
     <ClCompile Include="Problem 24-Swap Nodes in Pairs\Solution24.cpp">
       <Filter>Problem 24-Swap Nodes in Pairs</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 25-Reverse Nodes in k-Group\Solution25.cpp">
+      <Filter>Problem 25-Reverse Nodes in k-Group</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
