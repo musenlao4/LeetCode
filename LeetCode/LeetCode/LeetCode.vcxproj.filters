@@ -67,6 +67,9 @@
     <Filter Include="Problem 26-Remove Duplicates from Sorted Array">
       <UniqueIdentifier>{f1bf5401-d83b-4552-9fcb-5f648d3156ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 27-Remove Element">
+      <UniqueIdentifier>{baeaf9d8-e440-4b91-b85e-7bca0389489f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -138,6 +141,9 @@
     <ClInclude Include="Problem 26-Remove Duplicates from Sorted Array\Solution26.h">
       <Filter>Problem 26-Remove Duplicates from Sorted Array</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 27-Remove Element\Solution27.h">
+      <Filter>Problem 27-Remove Element</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -199,6 +205,9 @@
     </ClCompile>
     <ClCompile Include="Problem 26-Remove Duplicates from Sorted Array\Solution26.cpp">
       <Filter>Problem 26-Remove Duplicates from Sorted Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 27-Remove Element\Solution27.cpp">
+      <Filter>Problem 27-Remove Element</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

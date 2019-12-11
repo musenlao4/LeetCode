@@ -116,9 +116,17 @@ void test26()
 	printf("");
 }
 
+void test27()
+{
+	Solution27 sln;
+	vector<int> vec{ 1, 1, 2, 3, 6 };
+	int size{ sln.removeElement(vec, 1) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test26();
+	test27();
 	getchar();
 	return 0;
 }
