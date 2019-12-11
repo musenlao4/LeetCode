@@ -100,7 +100,7 @@
     <ClInclude Include="Problem 23-Merge k Sorted Lists\Solution23.h" />
     <ClInclude Include="Problem 24-Swap Nodes in Pairs\Solution24.h" />
     <ClInclude Include="Problem 25-Reverse Nodes in k-Group\Solution25.h" />
-    <ClInclude Include="Solution26.h" />
+    <ClInclude Include="Problem 26-Remove Duplicates from Sorted Array\Solution26.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

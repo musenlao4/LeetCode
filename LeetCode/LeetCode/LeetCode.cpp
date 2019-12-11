@@ -108,9 +108,17 @@ void test25()
 	printf("");
 }
 
+void test26()
+{
+	Solution26 sln;
+	vector<int> vec{ 1, 1, 2, 3, 6 };
+	int size{ sln.removeDuplicates(vec) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test25();
+	test26();
 	getchar();
 	return 0;
 }
