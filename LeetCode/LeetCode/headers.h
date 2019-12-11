@@ -7,3 +7,4 @@
 #include "Problem 25-Reverse Nodes in k-Group/Solution25.h"
 #include "Problem 26-Remove Duplicates from Sorted Array/Solution26.h"
 #include "Problem 27-Remove Element/Solution27.h"
+#include "Problem 29-Divide Two Integers/Solution29.h"

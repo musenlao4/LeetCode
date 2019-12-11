@@ -70,6 +70,9 @@
     <Filter Include="Problem 27-Remove Element">
       <UniqueIdentifier>{baeaf9d8-e440-4b91-b85e-7bca0389489f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 29-Divide Two Integers">
+      <UniqueIdentifier>{01339461-10a9-4283-a68b-c9fc0db20da8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -144,6 +147,12 @@
     <ClInclude Include="Problem 27-Remove Element\Solution27.h">
       <Filter>Problem 27-Remove Element</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 29-Divide Two Integers\Solution29.h">
+      <Filter>Problem 29-Divide Two Integers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\operation_math.h">
+      <Filter>common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -208,6 +217,9 @@
     </ClCompile>
     <ClCompile Include="Problem 27-Remove Element\Solution27.cpp">
       <Filter>Problem 27-Remove Element</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 29-Divide Two Integers\Solution29.cpp">
+      <Filter>Problem 29-Divide Two Integers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

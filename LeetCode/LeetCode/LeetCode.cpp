@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "headers.h"
 #include "common/common.h"
+#include "common/operation_math.h"
 #include <algorithm>
 
 void test20()
@@ -124,9 +125,17 @@ void test27()
 	printf("");
 }
 
+void test29()
+{
+	Solution29 sln;
+	int a{ 0 };
+	int b{ -1 };
+	int res{ sln.divide(numeric_limits<int>::min(), b) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test27();
-	getchar();
+	test29();
 	return 0;
 }
