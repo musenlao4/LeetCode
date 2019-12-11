@@ -16,7 +16,6 @@ void test20()
 
 void test21()
 {
-	using namespace MySolution21;
 	ListNode *l1{ new ListNode{ 1 } };
 	ListNode *p{ l1 };
 	p->next = new ListNode{ 2 };
@@ -45,7 +44,6 @@ void test22()
 
 void test23()
 {
-	using namespace MySolution23;
 	ListNode *l1{ new ListNode{ 1 } };
 	ListNode *p{ l1 };
 	p->next = new ListNode{ 4 };
@@ -76,7 +74,6 @@ void test23()
 
 void test24()
 {
-	using namespace MySolution24;
 	ListNode *l{ new ListNode{ 1 } };
 	ListNode *p{ l };
 	p->next = new ListNode{ 4 };
@@ -95,7 +92,6 @@ void test24()
 
 void test25()
 {
-	using namespace MySolution25;
 	ListNode *l{ new ListNode{ 1 } };
 	ListNode *p{ l };
 	p->next = new ListNode{ 4 };

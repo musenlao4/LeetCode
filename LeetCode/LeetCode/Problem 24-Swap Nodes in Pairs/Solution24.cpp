@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include "Solution24.h"
 
-using namespace MySolution24;
-
 Solution24::Solution24()
 {
 }

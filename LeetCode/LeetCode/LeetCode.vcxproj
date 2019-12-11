@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h" />
+    <ClInclude Include="define.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="Problem 10-Regular Expression Matching\Solution10.h" />
     <ClInclude Include="Problem 11-Container With Most Water\Solution11.h" />
@@ -99,10 +100,12 @@
     <ClInclude Include="Problem 23-Merge k Sorted Lists\Solution23.h" />
     <ClInclude Include="Problem 24-Swap Nodes in Pairs\Solution24.h" />
     <ClInclude Include="Problem 25-Reverse Nodes in k-Group\Solution25.h" />
+    <ClInclude Include="Solution26.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="define.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="Problem 10-Regular Expression Matching\Solution10.cpp" />
     <ClCompile Include="Problem 11-Container With Most Water\Solution11.cpp" />
@@ -120,6 +123,7 @@
     <ClCompile Include="Problem 23-Merge k Sorted Lists\Solution23.cpp" />
     <ClCompile Include="Problem 24-Swap Nodes in Pairs\Solution24.cpp" />
     <ClCompile Include="Problem 25-Reverse Nodes in k-Group\Solution25.cpp" />
+    <ClCompile Include="Problem 26-Remove Duplicates from Sorted Array\Solution26.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

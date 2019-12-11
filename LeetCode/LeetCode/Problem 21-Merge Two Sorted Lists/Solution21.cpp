@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "Solution21.h"
 
-using namespace MySolution21;
 Solution21::Solution21()
 {
 }

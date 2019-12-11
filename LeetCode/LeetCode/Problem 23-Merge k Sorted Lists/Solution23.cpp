@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include "Solution23.h"
 
-using namespace MySolution23;
-
 Solution23::Solution23()
 {
 }

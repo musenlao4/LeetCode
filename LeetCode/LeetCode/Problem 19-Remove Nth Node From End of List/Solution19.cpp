@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "Solution19.h"
 
-using namespace MySolution19;
 Solution19::Solution19()
 {
 }

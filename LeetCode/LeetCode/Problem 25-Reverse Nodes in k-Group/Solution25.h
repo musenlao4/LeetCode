@@ -1,12 +1,5 @@
 #pragma once
-namespace MySolution25
-{
-	struct ListNode {
-		int val;
-		ListNode *next;
-		ListNode(int x) : val(x), next(NULL) {}
-	};
-}
+
 class Solution25
 {
 public:
@@ -14,5 +7,5 @@ public:
 	~Solution25();
 
 public:
-	MySolution25::ListNode* reverseKGroup(MySolution25::ListNode* head, int k);
+	ListNode* reverseKGroup(ListNode* head, int k);
 };

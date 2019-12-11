@@ -64,6 +64,9 @@
     <Filter Include="Problem 25-Reverse Nodes in k-Group">
       <UniqueIdentifier>{eda871e4-3169-4d69-a0a8-4dc26537ccba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 26-Remove Duplicates from Sorted Array">
+      <UniqueIdentifier>{f1bf5401-d83b-4552-9fcb-5f648d3156ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -129,6 +132,12 @@
     <ClInclude Include="headers.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Solution26.h">
+      <Filter>Problem 26-Remove Duplicates from Sorted Array</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -184,6 +193,12 @@
     </ClCompile>
     <ClCompile Include="Problem 25-Reverse Nodes in k-Group\Solution25.cpp">
       <Filter>Problem 25-Reverse Nodes in k-Group</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 26-Remove Duplicates from Sorted Array\Solution26.cpp">
+      <Filter>Problem 26-Remove Duplicates from Sorted Array</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
