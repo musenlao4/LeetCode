@@ -141,8 +141,16 @@ void test29()
 	printf("");
 }
 
+void test30()
+{
+	Solution30 sln;
+	vector<string> words{ "bar","foo","the" };
+	vector<int> res{ sln.findSubstring("barfoofoobarthefoobarman", words) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test29();
+	test30();
 	return 0;
 }
