@@ -17,86 +17,71 @@ vector<int> Solution30::findSubstring(string s, vector<string>& words)
 	{
 		return res;
 	}
+	
+	unsigned int wordLength{ words[0].length() };
+	unsigned int sumLength{ wordLength * words.size() };
 
-	vector<int> poses{};
-	int word_length = words[0].length();
-	for (auto word : words)
+	if (sumLength > s.length())
 	{
-		findSignalPos(s, word, poses);
+		return res;
 	}
 
-	sort(poses.begin(), poses.end());
-	int beginPos{ 0 };
-	int endPos{ 0 };
-	int lookup{ 0 };
-	while (lookup < poses.size() && endPos < s.size())
+	map<string, int> ExWords{};
+	for (auto word : words)
 	{
-		if (lookup == 0)
+		if (ExWords.find(word) != ExWords.end())
 		{
-			beginPos = poses[lookup];
-			endPos = beginPos + word_length;
-			++lookup;
-			continue;
-		}
-
-		if (endPos < poses[lookup])
-		{
-			res.emplace_back(beginPos);
-			beginPos = poses[lookup];
-			endPos = beginPos + word_length;
+			ExWords[word]++;
 		}
 		else
 		{
-			endPos = poses[lookup] + word_length;
+			ExWords[word] = 1;
 		}
-
-		++lookup;
 	}
-	if (res.size() > 0)
+
+	for (int i = 0; i < wordLength; ++i)
 	{
-		res.emplace_back(beginPos);
+		int beginPos{ i };
+		int pos{ beginPos };
+		while (beginPos + sumLength - 1 < s.length())
+		{
+			map<string, int> backup{ ExWords };
+			if (FindedSubstring(s, backup, pos, wordLength))
+			{
+				res.emplace_back(beginPos);
+			}
+
+			pos = beginPos + wordLength;
+			beginPos = pos;
+		}
 	}
 	return res;
 }
 
-void Solution30::findSignalPos(string s, string word, vector<int>& poses)
+bool Solution30::FindedSubstring(string &s, map<string, int>& words, int &beginPos, unsigned int &wordLength)
 {
-	int width = s.length();
-	int height = word.length();
-	vector<vector<int>> blank{};
-	blank.resize(height);
-	for (auto &signalVec : blank)
+	if (words.empty())
 	{
-		signalVec.resize(width);
+		return true;
 	}
-
-	for (int i = 0; i < height; i++)
+	if (beginPos + wordLength > s.length())
 	{
-		for (int j = 0; j < width; j++)
-		{
-			if (s[j] == word[i])
-			{
-				if (i - 1 >= 0 && j - 1 >= 0)
-				{
-					blank[i][j] = blank[i - 1][j - 1] + 1;
-				}
-				else
-				{
-					blank[i][j] = 1;
-				}
-			}
-			else
-			{
-				blank[i][j];
-			}
-		}
+		return false;
 	}
-
-	for (int i = 0; i < width; i++)
+	string subString{ s.substr(beginPos, wordLength) };
+	auto it{ words.find(subString) };
+	if (it == words.end())
 	{
-		if (blank[height - 1][i] == height)
-		{
-			poses.emplace_back(i - height + 1);
-		}
+		return false;
 	}
+	if (it->second == 1)
+	{
+		words.erase(it);
+	}
+	else
+	{
+		it->second--;
+	}
+	beginPos += wordLength;
+	return FindedSubstring(s, words, beginPos, wordLength);
 }

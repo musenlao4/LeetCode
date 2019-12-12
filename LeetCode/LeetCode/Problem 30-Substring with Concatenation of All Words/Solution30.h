@@ -8,6 +8,6 @@ public:
 
 public:
 	vector<int> findSubstring(string s, vector<string>& words);
-private:
-	void findSignalPos(string s, string word, vector<int> &poses);
+
+	bool FindedSubstring(string &s, map<string, int> &words, int &beginPos, unsigned int &wordLength);
 };
