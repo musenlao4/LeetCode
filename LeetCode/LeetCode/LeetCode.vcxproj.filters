@@ -73,6 +73,9 @@
     <Filter Include="Problem 29-Divide Two Integers">
       <UniqueIdentifier>{01339461-10a9-4283-a68b-c9fc0db20da8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 28-Implement strStr">
+      <UniqueIdentifier>{9f14616c-fd24-40e3-9c1f-24012f15bef0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -153,6 +156,9 @@
     <ClInclude Include="common\operation_math.h">
       <Filter>common</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 28-Implement strStr\Solution28.h">
+      <Filter>Problem 28-Implement strStr</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -220,6 +226,9 @@
     </ClCompile>
     <ClCompile Include="Problem 29-Divide Two Integers\Solution29.cpp">
       <Filter>Problem 29-Divide Two Integers</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 28-Implement strStr\Solution28.cpp">
+      <Filter>Problem 28-Implement strStr</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

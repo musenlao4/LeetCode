@@ -125,6 +125,13 @@ void test27()
 	printf("");
 }
 
+void test28()
+{
+	Solution28 sln;
+	int pos{ sln.strStr("abcdef", "cd") };
+	printf("");
+}
+
 void test29()
 {
 	Solution29 sln;
