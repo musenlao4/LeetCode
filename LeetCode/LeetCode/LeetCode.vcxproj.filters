@@ -82,6 +82,9 @@
     <Filter Include="Problem 31-Next Permutation">
       <UniqueIdentifier>{8bfc1c31-caa9-4e81-a5f3-6a441e6ac5fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 32-Longest Valid Parentheses">
+      <UniqueIdentifier>{56172dc0-0952-466c-832e-caeee4032a4a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -171,6 +174,9 @@
     <ClInclude Include="Problem 31-Next Permutation\Solution31.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 32-Longest Valid Parentheses\Solution32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -246,6 +252,9 @@
       <Filter>Problem 30-Substring with Concatenation of All Words</Filter>
     </ClCompile>
     <ClCompile Include="Problem 31-Next Permutation\Solution31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 32-Longest Valid Parentheses\Solution32.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -160,8 +160,15 @@ void test31()
 	printf("");
 }
 
+void test32()
+{
+	Solution32 sln;
+	int length{ sln.longestValidParentheses("(((())(((()())") };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test31();
+	test32();
 	return 0;
 }
