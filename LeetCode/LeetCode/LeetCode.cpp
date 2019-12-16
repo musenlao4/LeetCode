@@ -152,8 +152,16 @@ void test30()
 	printf("");
 }
 
+void test31()
+{
+	Solution31 sln;
+	vector<int> vec{ 3, 2, 1, };
+	sln.nextPermutation(vec);
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test30();
+	test31();
 	return 0;
 }

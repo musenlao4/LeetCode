@@ -79,6 +79,9 @@
     <Filter Include="Problem 30-Substring with Concatenation of All Words">
       <UniqueIdentifier>{3056b440-4e27-45fa-b166-b62a4e1b74d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 31-Next Permutation">
+      <UniqueIdentifier>{8bfc1c31-caa9-4e81-a5f3-6a441e6ac5fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -165,6 +168,9 @@
     <ClInclude Include="Problem 30-Substring with Concatenation of All Words\Solution30.h">
       <Filter>Problem 30-Substring with Concatenation of All Words</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 31-Next Permutation\Solution31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -238,6 +244,9 @@
     </ClCompile>
     <ClCompile Include="Problem 30-Substring with Concatenation of All Words\Solution30.cpp">
       <Filter>Problem 30-Substring with Concatenation of All Words</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 31-Next Permutation\Solution31.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

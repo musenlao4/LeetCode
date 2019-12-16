@@ -106,6 +106,7 @@
     <ClInclude Include="Problem 28-Implement strStr\Solution28.h" />
     <ClInclude Include="Problem 29-Divide Two Integers\Solution29.h" />
     <ClInclude Include="Problem 30-Substring with Concatenation of All Words\Solution30.h" />
+    <ClInclude Include="Problem 31-Next Permutation\Solution31.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -133,6 +134,7 @@
     <ClCompile Include="Problem 28-Implement strStr\Solution28.cpp" />
     <ClCompile Include="Problem 29-Divide Two Integers\Solution29.cpp" />
     <ClCompile Include="Problem 30-Substring with Concatenation of All Words\Solution30.cpp" />
+    <ClCompile Include="Problem 31-Next Permutation\Solution31.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

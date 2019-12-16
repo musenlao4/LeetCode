@@ -10,3 +10,4 @@
 #include "Problem 28-Implement strStr/Solution28.h"
 #include "Problem 29-Divide Two Integers/Solution29.h"
 #include "Problem 30-Substring with Concatenation of All Words/Solution30.h"
+#include "Problem 31-Next Permutation/Solution31.h"
