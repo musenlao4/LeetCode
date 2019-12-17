@@ -13,3 +13,4 @@
 #include "Problem 31-Next Permutation/Solution31.h"
 #include "Problem 32-Longest Valid Parentheses/Solution32.h"
 #include "Problem 33-Search in Rotated Sorted Array/Solution33.h"
+#include "Problem 34-Find First and Last Position of Element in Sorted Array/Solution34.h"

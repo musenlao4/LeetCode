@@ -88,6 +88,9 @@
     <Filter Include="Problem 33-Search in Rotated Sorted Array">
       <UniqueIdentifier>{e1c1c0ec-4856-4ad4-bf32-5c3acb397147}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 34-Find First and Last Position of Element in Sorted Array">
+      <UniqueIdentifier>{17f3f9ca-9fad-481f-b7b4-e858fd37cadf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -183,6 +186,9 @@
     <ClInclude Include="Problem 33-Search in Rotated Sorted Array\Solution33.h">
       <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -265,6 +271,9 @@
     </ClCompile>
     <ClCompile Include="Problem 33-Search in Rotated Sorted Array\Solution33.cpp">
       <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -175,8 +175,16 @@ void test33()
 	printf("");
 }
 
+void test34()
+{
+	Solution34 sln;
+	vector<int> vec{ 0,0,0,1,2,3 };
+	vector<int> range{ sln.searchRange(vec, 0) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test33();
+	test34();
 	return 0;
 }
