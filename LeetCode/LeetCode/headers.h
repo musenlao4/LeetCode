@@ -12,3 +12,4 @@
 #include "Problem 30-Substring with Concatenation of All Words/Solution30.h"
 #include "Problem 31-Next Permutation/Solution31.h"
 #include "Problem 32-Longest Valid Parentheses/Solution32.h"
+#include "Problem 33-Search in Rotated Sorted Array/Solution33.h"

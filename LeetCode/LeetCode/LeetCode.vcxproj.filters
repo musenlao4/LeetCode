@@ -85,6 +85,9 @@
     <Filter Include="Problem 32-Longest Valid Parentheses">
       <UniqueIdentifier>{56172dc0-0952-466c-832e-caeee4032a4a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 33-Search in Rotated Sorted Array">
+      <UniqueIdentifier>{e1c1c0ec-4856-4ad4-bf32-5c3acb397147}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -172,10 +175,13 @@
       <Filter>Problem 30-Substring with Concatenation of All Words</Filter>
     </ClInclude>
     <ClInclude Include="Problem 31-Next Permutation\Solution31.h">
-      <Filter>头文件</Filter>
+      <Filter>Problem 31-Next Permutation</Filter>
     </ClInclude>
     <ClInclude Include="Problem 32-Longest Valid Parentheses\Solution32.h">
-      <Filter>头文件</Filter>
+      <Filter>Problem 32-Longest Valid Parentheses</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 33-Search in Rotated Sorted Array\Solution33.h">
+      <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -252,10 +258,13 @@
       <Filter>Problem 30-Substring with Concatenation of All Words</Filter>
     </ClCompile>
     <ClCompile Include="Problem 31-Next Permutation\Solution31.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Problem 31-Next Permutation</Filter>
     </ClCompile>
     <ClCompile Include="Problem 32-Longest Valid Parentheses\Solution32.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Problem 32-Longest Valid Parentheses</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 33-Search in Rotated Sorted Array\Solution33.cpp">
+      <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

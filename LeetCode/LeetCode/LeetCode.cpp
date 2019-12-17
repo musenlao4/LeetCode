@@ -167,8 +167,16 @@ void test32()
 	printf("");
 }
 
+void test33()
+{
+	Solution33 sln;
+	vector<int> vec{ 1,2,3,6,7,9 };
+	int pos{ sln.search(vec, 0) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test32();
+	test33();
 	return 0;
 }
