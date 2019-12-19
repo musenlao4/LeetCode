@@ -91,6 +91,9 @@
     <Filter Include="Problem 34-Find First and Last Position of Element in Sorted Array">
       <UniqueIdentifier>{17f3f9ca-9fad-481f-b7b4-e858fd37cadf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 35-Search Insert Position">
+      <UniqueIdentifier>{d03b0be3-d98f-41c1-83dc-4c9294c6721e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -187,7 +190,10 @@
       <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
     </ClInclude>
     <ClInclude Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.h">
-      <Filter>头文件</Filter>
+      <Filter>Problem 34-Find First and Last Position of Element in Sorted Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 35-Search Insert Position\Solution35.h">
+      <Filter>Problem 35-Search Insert Position</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -273,7 +279,10 @@
       <Filter>Problem 33-Search in Rotated Sorted Array</Filter>
     </ClCompile>
     <ClCompile Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Problem 34-Find First and Last Position of Element in Sorted Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 35-Search Insert Position\Solution35.cpp">
+      <Filter>Problem 35-Search Insert Position</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

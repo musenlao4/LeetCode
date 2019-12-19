@@ -183,8 +183,17 @@ void test34()
 	printf("");
 }
 
+void test35()
+{
+	Solution35 sln;
+	vector<int> vec{ 1, 3 };
+	int target{ 3 };
+	int pos{ sln.searchInsert(vec, target) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test34();
+	test35();
 	return 0;
 }
