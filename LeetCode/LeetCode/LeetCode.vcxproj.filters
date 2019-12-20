@@ -94,6 +94,9 @@
     <Filter Include="Problem 35-Search Insert Position">
       <UniqueIdentifier>{d03b0be3-d98f-41c1-83dc-4c9294c6721e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 36-Valid Sudoku">
+      <UniqueIdentifier>{14d006fb-239a-42d3-a892-aeebf7373cbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -195,6 +198,9 @@
     <ClInclude Include="Problem 35-Search Insert Position\Solution35.h">
       <Filter>Problem 35-Search Insert Position</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 36-Valid Sudoku\Solution36.h">
+      <Filter>Problem 36-Valid Sudoku</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -283,6 +289,9 @@
     </ClCompile>
     <ClCompile Include="Problem 35-Search Insert Position\Solution35.cpp">
       <Filter>Problem 35-Search Insert Position</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 36-Valid Sudoku\Solution36.cpp">
+      <Filter>Problem 36-Valid Sudoku</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
