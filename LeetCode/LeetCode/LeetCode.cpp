@@ -218,8 +218,17 @@ void test38()
 	printf("");
 }
 
+void test39()
+{
+	Solution39 sln;
+	vector<int> input{ 2, 3, 5 };
+	int target{ 8 };
+	vector<vector<int>> res{ sln.combinationSum(input, target) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test38();
+	test39();
 	return 0;
 }

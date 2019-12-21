@@ -17,3 +17,4 @@
 #include "Problem 35-Search Insert Position/Solution35.h"
 #include "Problem 36-Valid Sudoku/Solution36.h"
 #include "Problem 38-Count and Say/Solution38.h"
+#include "Problem 39-Combination Sum/Solution39.h"

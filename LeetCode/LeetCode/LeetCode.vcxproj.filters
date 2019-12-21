@@ -100,6 +100,9 @@
     <Filter Include="Problem 38-Count and Say">
       <UniqueIdentifier>{09b89848-8c0e-4b2a-8be5-468d7a5f5731}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 39-Combination Sum">
+      <UniqueIdentifier>{ecc9844d-1aaa-4d73-8fca-b9b371420138}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -207,6 +210,9 @@
     <ClInclude Include="Problem 38-Count and Say\Solution38.h">
       <Filter>Problem 38-Count and Say</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 39-Combination Sum\Solution39.h">
+      <Filter>Problem 39-Combination Sum</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -301,6 +307,9 @@
     </ClCompile>
     <ClCompile Include="Problem 38-Count and Say\Solution38.cpp">
       <Filter>Problem 38-Count and Say</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp">
+      <Filter>Problem 39-Combination Sum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
