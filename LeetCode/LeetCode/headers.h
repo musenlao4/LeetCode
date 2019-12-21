@@ -16,3 +16,4 @@
 #include "Problem 34-Find First and Last Position of Element in Sorted Array/Solution34.h"
 #include "Problem 35-Search Insert Position/Solution35.h"
 #include "Problem 36-Valid Sudoku/Solution36.h"
+#include "Problem 38-Count and Say/Solution38.h"

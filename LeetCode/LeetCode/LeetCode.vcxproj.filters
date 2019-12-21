@@ -97,6 +97,9 @@
     <Filter Include="Problem 36-Valid Sudoku">
       <UniqueIdentifier>{14d006fb-239a-42d3-a892-aeebf7373cbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 38-Count and Say">
+      <UniqueIdentifier>{09b89848-8c0e-4b2a-8be5-468d7a5f5731}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -201,6 +204,9 @@
     <ClInclude Include="Problem 36-Valid Sudoku\Solution36.h">
       <Filter>Problem 36-Valid Sudoku</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 38-Count and Say\Solution38.h">
+      <Filter>Problem 38-Count and Say</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -292,6 +298,9 @@
     </ClCompile>
     <ClCompile Include="Problem 36-Valid Sudoku\Solution36.cpp">
       <Filter>Problem 36-Valid Sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 38-Count and Say\Solution38.cpp">
+      <Filter>Problem 38-Count and Say</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

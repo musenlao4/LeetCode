@@ -211,8 +211,15 @@ void test36()
 	printf("");
 }
 
+void test38()
+{
+	Solution38 sln;
+	string res{ sln.countAndSay(6) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test36();
+	test38();
 	return 0;
 }
