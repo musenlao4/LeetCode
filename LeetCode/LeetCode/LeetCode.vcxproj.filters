@@ -103,6 +103,9 @@
     <Filter Include="Problem 39-Combination Sum">
       <UniqueIdentifier>{ecc9844d-1aaa-4d73-8fca-b9b371420138}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 40-Combination Sum II">
+      <UniqueIdentifier>{71e6b13d-7c96-4d02-bab9-b1a1fd36dbfb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -213,6 +216,9 @@
     <ClInclude Include="Problem 39-Combination Sum\Solution39.h">
       <Filter>Problem 39-Combination Sum</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 40-Combination Sum II\Solution40.h">
+      <Filter>Problem 40-Combination Sum II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -310,6 +316,9 @@
     </ClCompile>
     <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp">
       <Filter>Problem 39-Combination Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 40-Combination Sum II\Solution40.cpp">
+      <Filter>Problem 40-Combination Sum II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
