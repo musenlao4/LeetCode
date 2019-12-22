@@ -106,6 +106,9 @@
     <Filter Include="Problem 40-Combination Sum II">
       <UniqueIdentifier>{71e6b13d-7c96-4d02-bab9-b1a1fd36dbfb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 41-First Missing Positive">
+      <UniqueIdentifier>{0909ab64-c667-4a5c-884a-7a89cef31db5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -219,6 +222,9 @@
     <ClInclude Include="Problem 40-Combination Sum II\Solution40.h">
       <Filter>Problem 40-Combination Sum II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 41-First Missing Positive\Solution41.h">
+      <Filter>Problem 41-First Missing Positive</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -319,6 +325,9 @@
     </ClCompile>
     <ClCompile Include="Problem 40-Combination Sum II\Solution40.cpp">
       <Filter>Problem 40-Combination Sum II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 41-First Missing Positive\Solution41.cpp">
+      <Filter>Problem 41-First Missing Positive</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

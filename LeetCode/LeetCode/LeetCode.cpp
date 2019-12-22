@@ -236,8 +236,16 @@ void test40()
 	printf("");
 }
 
+void test41()
+{
+	Solution41 sln;
+	vector<int> input{ 7,8,9,11,12 };
+	int missing{ sln.firstMissingPositive(input) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test40();
+	test41();
 	return 0;
 }
