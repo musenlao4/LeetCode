@@ -259,8 +259,20 @@ void test43()
 	printf("");
 }
 
+void test44()
+{
+	Solution44 sln;
+	//"abefcdgiescdfimde"
+	//"ab*cd?i*de"
+
+	// "ab"
+	// "*?*?*"
+	bool isMatch{ sln.isMatch("abbbb", "?*b**") };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test43();
+	test44();
 	return 0;
 }

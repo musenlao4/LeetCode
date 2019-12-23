@@ -115,6 +115,9 @@
     <Filter Include="Problem 43-Multiply Strings">
       <UniqueIdentifier>{e4d460f1-91c6-4ffe-ade2-d6903fd229fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 44-Wildcard Matching">
+      <UniqueIdentifier>{1df19d6b-b4df-474b-9f3e-58017b109e91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -237,6 +240,9 @@
     <ClInclude Include="Problem 43-Multiply Strings\Solution43.h">
       <Filter>Problem 43-Multiply Strings</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 44-Wildcard Matching\Solution44.h">
+      <Filter>Problem 44-Wildcard Matching</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -346,6 +352,9 @@
     </ClCompile>
     <ClCompile Include="Problem 43-Multiply Strings\Solution43.cpp">
       <Filter>Problem 43-Multiply Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 44-Wildcard Matching\Solution44.cpp">
+      <Filter>Problem 44-Wildcard Matching</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
