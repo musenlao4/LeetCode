@@ -116,6 +116,7 @@
     <ClInclude Include="Problem 39-Combination Sum\Solution39.h" />
     <ClInclude Include="Problem 40-Combination Sum II\Solution40.h" />
     <ClInclude Include="Problem 41-First Missing Positive\Solution41.h" />
+    <ClInclude Include="Problem 42-Trapping Rain Water\Solution42.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp" />
     <ClCompile Include="Problem 40-Combination Sum II\Solution40.cpp" />
     <ClCompile Include="Problem 41-First Missing Positive\Solution41.cpp" />
+    <ClCompile Include="Problem 42-Trapping Rain Water\Solution42.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

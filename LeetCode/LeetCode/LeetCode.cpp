@@ -244,8 +244,16 @@ void test41()
 	printf("");
 }
 
+void test42()
+{
+	Solution42 sln;
+	vector<int> input{ 0,1,0,2,1,0,1,3,2,1,2,1 };
+	int water{ sln.trap(input) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test41();
+	test42();
 	return 0;
 }

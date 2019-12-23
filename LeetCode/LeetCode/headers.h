@@ -20,3 +20,4 @@
 #include "Problem 39-Combination Sum/Solution39.h"
 #include "Problem 40-Combination Sum II/Solution40.h"
 #include "Problem 41-First Missing Positive/Solution41.h"
+#include "Problem 42-Trapping Rain Water/Solution42.h"
