@@ -252,8 +252,15 @@ void test42()
 	printf("");
 }
 
+void test43()
+{
+	Solution43 sln;
+	string res{ sln.multiply("123", "456") };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test42();
+	test43();
 	return 0;
 }

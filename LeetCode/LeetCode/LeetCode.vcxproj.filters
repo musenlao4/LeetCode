@@ -112,6 +112,9 @@
     <Filter Include="Problem 42-Trapping Rain Water">
       <UniqueIdentifier>{49f1e3f9-b047-470b-868f-827ef89aa0e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 43-Multiply Strings">
+      <UniqueIdentifier>{e4d460f1-91c6-4ffe-ade2-d6903fd229fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -231,6 +234,9 @@
     <ClInclude Include="Problem 42-Trapping Rain Water\Solution42.h">
       <Filter>Problem 42-Trapping Rain Water</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 43-Multiply Strings\Solution43.h">
+      <Filter>Problem 43-Multiply Strings</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -337,6 +343,9 @@
     </ClCompile>
     <ClCompile Include="Problem 42-Trapping Rain Water\Solution42.cpp">
       <Filter>Problem 42-Trapping Rain Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 43-Multiply Strings\Solution43.cpp">
+      <Filter>Problem 43-Multiply Strings</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
