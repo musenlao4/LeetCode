@@ -28,7 +28,7 @@ double Solution50::myPow(double x, int n)
 	{
 		double pow{ x };
 		long long count{ 1 };
-		while (y - count * 2 > 0)
+		while (y - (count << 1) > 0)
 		{
 			pow *= pow;
 			count = count << 1;
