@@ -264,6 +264,9 @@
     <ClInclude Include="Problem 47-Permutations II\Solution47.h">
       <Filter>Problem 47-Permutations II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 48-Rotate Image\Solution48.h">
+      <Filter>Problem 48-Rotate Image</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -385,6 +388,9 @@
     </ClCompile>
     <ClCompile Include="Problem 47-Permutations II\Solution47.cpp">
       <Filter>Problem 47-Permutations II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 48-Rotate Image\Solution48.cpp">
+      <Filter>Problem 48-Rotate Image</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
