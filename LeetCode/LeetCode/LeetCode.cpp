@@ -310,8 +310,16 @@ void test48()
 	printf("");
 }
 
+void test49()
+{
+	Solution49 sln;
+	vector<string> input{ "eat", "tea", "tan", "ate", "nat", "bat" };
+	vector<vector<string>> res{ sln.groupAnagrams(input) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test48();
+	test49();
 	return 0;
 }

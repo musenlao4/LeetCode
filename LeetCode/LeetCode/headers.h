@@ -27,3 +27,4 @@
 #include "Problem 46-Permutations/Solution46.h"
 #include "Problem 47-Permutations II/Solution47.h"
 #include "Problem 48-Rotate Image/Solution48.h"
+#include "Problem 49-Group Anagrams/Solution49.h"
