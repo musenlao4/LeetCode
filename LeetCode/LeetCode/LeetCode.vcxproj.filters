@@ -121,6 +121,9 @@
     <Filter Include="Problem 45-Jump Game II">
       <UniqueIdentifier>{5786e862-9e86-4b73-8199-2bac69e3e1b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 46-Permutations">
+      <UniqueIdentifier>{2deaf3b7-d386-4eb4-bc61-3554c801737b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -249,6 +252,9 @@
     <ClInclude Include="Problem 45-Jump Game II\Solution45.h">
       <Filter>Problem 45-Jump Game II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 46-Permutations\Solution46.h">
+      <Filter>Problem 46-Permutations</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -364,6 +370,9 @@
     </ClCompile>
     <ClCompile Include="Problem 45-Jump Game II\Solution45.cpp">
       <Filter>Problem 45-Jump Game II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 46-Permutations\Solution46.cpp">
+      <Filter>Problem 46-Permutations</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

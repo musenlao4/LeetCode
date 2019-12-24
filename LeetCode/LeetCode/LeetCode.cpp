@@ -279,8 +279,16 @@ void test45()
 	printf("");
 }
 
+void test46()
+{
+	Solution46 sln;
+	vector<int> nums{1, 2, 3, 4};
+	vector<vector<int>> res{ sln.permute(nums) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test45();
+	test46();
 	return 0;
 }
