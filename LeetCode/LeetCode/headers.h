@@ -28,3 +28,4 @@
 #include "Problem 47-Permutations II/Solution47.h"
 #include "Problem 48-Rotate Image/Solution48.h"
 #include "Problem 49-Group Anagrams/Solution49.h"
+#include "Problem 50-Pow(x, n)/Solution50.h"

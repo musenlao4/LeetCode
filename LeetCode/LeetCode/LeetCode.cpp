@@ -318,8 +318,15 @@ void test49()
 	printf("");
 }
 
+void test50()
+{
+	Solution50 sln;
+	double res{ sln.myPow(-2.0, -3) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test49();
+	test50();
 	return 0;
 }

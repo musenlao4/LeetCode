@@ -133,6 +133,9 @@
     <Filter Include="Problem 49-Group Anagrams">
       <UniqueIdentifier>{4b03517c-4851-4a7b-911c-8654ac6aede9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 50-Pow%28x, n%29">
+      <UniqueIdentifier>{e17c8216-b20b-4911-ab89-73f525911338}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -273,6 +276,9 @@
     <ClInclude Include="Problem 49-Group Anagrams\Solution49.h">
       <Filter>Problem 49-Group Anagrams</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 50-Pow(x, n)\Solution50.h">
+      <Filter>Problem 50-Pow%28x, n%29</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -400,6 +406,9 @@
     </ClCompile>
     <ClCompile Include="Problem 49-Group Anagrams\Solution49.cpp">
       <Filter>Problem 49-Group Anagrams</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 50-Pow(x, n)\Solution50.cpp">
+      <Filter>Problem 50-Pow%28x, n%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
