@@ -23,3 +23,4 @@
 #include "Problem 42-Trapping Rain Water/Solution42.h"
 #include "Problem 43-Multiply Strings/Solution43.h"
 #include "Problem 44-Wildcard Matching/Solution44.h"
+#include "Problem 45-Jump Game II/Solution45.h"

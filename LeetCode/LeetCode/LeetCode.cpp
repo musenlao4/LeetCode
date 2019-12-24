@@ -271,8 +271,16 @@ void test44()
 	printf("");
 }
 
+void test45()
+{
+	Solution45 sln;
+	vector<int> nums{ 0 };
+	int step{ sln.jump(nums) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test44();
+	test45();
 	return 0;
 }
