@@ -124,6 +124,12 @@
     <Filter Include="Problem 46-Permutations">
       <UniqueIdentifier>{2deaf3b7-d386-4eb4-bc61-3554c801737b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 47-Permutations II">
+      <UniqueIdentifier>{0352ae30-8f0a-4591-9a9d-86dc49b13f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 48-Rotate Image">
+      <UniqueIdentifier>{7a205608-11d1-4938-8447-709f404a042f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -255,6 +261,9 @@
     <ClInclude Include="Problem 46-Permutations\Solution46.h">
       <Filter>Problem 46-Permutations</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 47-Permutations II\Solution47.h">
+      <Filter>Problem 47-Permutations II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -373,6 +382,9 @@
     </ClCompile>
     <ClCompile Include="Problem 46-Permutations\Solution46.cpp">
       <Filter>Problem 46-Permutations</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 47-Permutations II\Solution47.cpp">
+      <Filter>Problem 47-Permutations II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -287,8 +287,16 @@ void test46()
 	printf("");
 }
 
+void test47()
+{
+	Solution47 sln;
+	vector<int> nums{ 1,1,2,3 };
+	vector<vector<int>> res{ sln.permuteUnique(nums) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test46();
+	test47();
 	return 0;
 }
