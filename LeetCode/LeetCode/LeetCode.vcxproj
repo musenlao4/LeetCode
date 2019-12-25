@@ -112,6 +112,7 @@
     <ClInclude Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.h" />
     <ClInclude Include="Problem 35-Search Insert Position\Solution35.h" />
     <ClInclude Include="Problem 36-Valid Sudoku\Solution36.h" />
+    <ClInclude Include="Problem 37-Sudoku Solver\Solution37.h" />
     <ClInclude Include="Problem 38-Count and Say\Solution38.h" />
     <ClInclude Include="Problem 39-Combination Sum\Solution39.h" />
     <ClInclude Include="Problem 40-Combination Sum II\Solution40.h" />
@@ -158,6 +159,7 @@
     <ClCompile Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.cpp" />
     <ClCompile Include="Problem 35-Search Insert Position\Solution35.cpp" />
     <ClCompile Include="Problem 36-Valid Sudoku\Solution36.cpp" />
+    <ClCompile Include="Problem 37-Sudoku Solver\Solution37.cpp" />
     <ClCompile Include="Problem 38-Count and Say\Solution38.cpp" />
     <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp" />
     <ClCompile Include="Problem 40-Combination Sum II\Solution40.cpp" />
