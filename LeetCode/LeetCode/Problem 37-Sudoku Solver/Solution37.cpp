@@ -21,7 +21,7 @@ struct cmp
 
 void Solution37::solveSudoku(vector<vector<char>>& board)
 {
-	printBoard(board, 0, 0);
+	//printBoard(board, 0, 0);
 	map<pair<int, int>, vector<char>> lookup{};
 	vector<pair<int, int>> oneMatch{};
 	// step1
@@ -36,7 +36,7 @@ void Solution37::solveSudoku(vector<vector<char>>& board)
 				{
 					board[y][x] = res[0];
 					oneMatch.emplace_back(pair<int, int>(x, y));
-					printBoard(board, x, y);
+					//printBoard(board, x, y);
 				}
 				else
 				{
@@ -61,11 +61,11 @@ void Solution37::solveSudoku(vector<vector<char>>& board)
 				board[y][x] = it->second[0];
 				oneMatch.emplace_back(pair<int, int>(x, y));
 				it = lookup.erase(it);
-				printBoard(board, x, y);
+				//printBoard(board, x, y);
 			}
 			else
 			{
-				lookup.emplace(pair<int, int>(x, y), it->second);
+				//lookup.emplace(pair<int, int>(x, y), it->second);
 				++it;
 			}
 		}
@@ -164,7 +164,7 @@ bool Solution37::supposeOne(vector<vector<char>>& board, map<pair<int, int>, vec
 		if (isValid(board, it->first.first, it->first.second, c))
 		{
 			board[it->first.second][it->first.first] = c;
-			printBoard(board, it->first.first, it->first.second);
+			//printBoard(board, it->first.first, it->first.second);
 			if (supposeOne(board, lookup, index + 1))
 			{
 				return true;
@@ -172,7 +172,7 @@ bool Solution37::supposeOne(vector<vector<char>>& board, map<pair<int, int>, vec
 			else
 			{
 				board[it->first.second][it->first.first] = '.';
-				printBoard(board, it->first.first, it->first.second);
+				//printBoard(board, it->first.first, it->first.second);
 			}
 		}
 	}
