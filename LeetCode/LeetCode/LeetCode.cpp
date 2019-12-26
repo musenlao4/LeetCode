@@ -344,8 +344,38 @@ void test50()
 	printf("");
 }
 
+void test51()
+{
+	Solution51 sln;
+	vector<vector<string>> res{ sln.solveNQueens(1) };
+	for (auto vec : res)
+	{
+		for (auto str : vec)
+		{
+			printf("%s\n", str.c_str());
+		}
+		printf("\n");
+	}
+	printf("");
+}
+
+void test52()
+{
+	Solution52 sln;
+	int count{ sln.totalNQueens(8) };
+	printf("");
+}
+
+void test53()
+{
+	Solution53 sln;
+	vector<int> array{ 8,-19,5,-4,20 };
+	int max{ sln.maxSubArray(array) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test37();
+	test53();
 	return 0;
 }

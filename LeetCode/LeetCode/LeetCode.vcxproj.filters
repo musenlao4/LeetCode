@@ -139,6 +139,15 @@
     <Filter Include="Problem 37-Sudoku Solver">
       <UniqueIdentifier>{2cff4808-dc71-4987-8f59-15f4dc68161d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 51-N-Queens">
+      <UniqueIdentifier>{832498c8-a305-426a-95dd-22fa016db27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 52-N-Queens II">
+      <UniqueIdentifier>{cc381fd4-521d-46f0-9589-bcceea449ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 53-Maximum Subarray">
+      <UniqueIdentifier>{d7468d6f-60ba-4832-b2de-b78636f83661}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -285,6 +294,15 @@
     <ClInclude Include="Problem 37-Sudoku Solver\Solution37.h">
       <Filter>Problem 37-Sudoku Solver</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 51-N-Queens\Solution51.h">
+      <Filter>Problem 51-N-Queens</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 52-N-Queens II\Solution52.h">
+      <Filter>Problem 52-N-Queens II</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 53-Maximum Subarray\Solution53.h">
+      <Filter>Problem 53-Maximum Subarray</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -418,6 +436,15 @@
     </ClCompile>
     <ClCompile Include="Problem 37-Sudoku Solver\Solution37.cpp">
       <Filter>Problem 37-Sudoku Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 51-N-Queens\Solution51.cpp">
+      <Filter>Problem 51-N-Queens</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 52-N-Queens II\Solution52.cpp">
+      <Filter>Problem 52-N-Queens II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 53-Maximum Subarray\Solution53.cpp">
+      <Filter>Problem 53-Maximum Subarray</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

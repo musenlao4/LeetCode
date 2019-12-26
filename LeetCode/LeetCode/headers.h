@@ -30,3 +30,6 @@
 #include "Problem 48-Rotate Image/Solution48.h"
 #include "Problem 49-Group Anagrams/Solution49.h"
 #include "Problem 50-Pow(x, n)/Solution50.h"
+#include "Problem 51-N-Queens/Solution51.h"
+#include "Problem 52-N-Queens II/Solution52.h"
+#include "Problem 53-Maximum Subarray/Solution53.h"
