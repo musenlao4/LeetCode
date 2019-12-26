@@ -390,8 +390,16 @@ void test54()
 	printf("\n");
 }
 
+void test55()
+{
+	Solution55 sln;
+	vector<int> nums{ 0 };
+	bool bRes{ sln.canJump(nums) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test54();
+	test55();
 	return 0;
 }
