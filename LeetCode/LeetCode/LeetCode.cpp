@@ -410,6 +410,16 @@ void test56()
 	printf("");
 }
 
+void test94()
+{
+	Solution94 sln;
+	Solution94::TreeNode *p(new Solution94::TreeNode(1));
+	p->left = new Solution94::TreeNode(2);
+	p->right = new Solution94::TreeNode(3);
+	vector<int> res{ sln.inorderTraversal(p) };
+	printf("");
+}
+
 void test100()
 {
 	Solution100 sln;
@@ -427,6 +437,6 @@ void test100()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test100();
+	test94();
 	return 0;
 }
