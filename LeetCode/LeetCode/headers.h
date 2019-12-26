@@ -35,3 +35,4 @@
 #include "Problem 53-Maximum Subarray/Solution53.h"
 #include "Problem 54-Spiral Matrix/Solution54.h"
 #include "Problem 55-Jump Game/Solution55.h"
+#include "Problem 56-Merge Intervals/Solution56.h"

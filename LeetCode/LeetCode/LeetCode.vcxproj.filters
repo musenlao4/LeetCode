@@ -154,6 +154,9 @@
     <Filter Include="Problem 55-Jump Game">
       <UniqueIdentifier>{a3490807-18d5-4e82-bfeb-3622a47e1cd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 56-Merge Intervals">
+      <UniqueIdentifier>{b2b1d856-a099-41d6-945f-8ee810d7f4d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -315,6 +318,9 @@
     <ClInclude Include="Problem 55-Jump Game\Solution55.h">
       <Filter>Problem 55-Jump Game</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 56-Merge Intervals\Solution56.h">
+      <Filter>Problem 56-Merge Intervals</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -463,6 +469,9 @@
     </ClCompile>
     <ClCompile Include="Problem 55-Jump Game\Solution55.cpp">
       <Filter>Problem 55-Jump Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 56-Merge Intervals\Solution56.cpp">
+      <Filter>Problem 56-Merge Intervals</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

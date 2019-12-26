@@ -398,8 +398,20 @@ void test55()
 	printf("");
 }
 
+void test56()
+{
+	Solution56 sln;
+	vector<vector<int>> intervals
+	{
+		{1, 4},
+		{4, 5}
+	};
+	vector<vector<int>> res{ sln.merge(intervals) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test55();
+	test56();
 	return 0;
 }
