@@ -374,8 +374,24 @@ void test53()
 	printf("");
 }
 
+void test54()
+{
+	Solution54 sln;
+	vector<vector<int>> input
+	{
+		{1},
+		{2}
+	};
+	vector<int> res{ sln.spiralOrder(input) };
+	for (auto it : res)
+	{
+		printf("%d ", it);
+	}
+	printf("\n");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test53();
+	test54();
 	return 0;
 }
