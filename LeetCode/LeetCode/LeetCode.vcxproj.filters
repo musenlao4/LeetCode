@@ -157,6 +157,9 @@
     <Filter Include="Problem 56-Merge Intervals">
       <UniqueIdentifier>{b2b1d856-a099-41d6-945f-8ee810d7f4d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 100-Same Tree">
+      <UniqueIdentifier>{ecb37156-b404-40b9-a242-22e78707a85e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -321,6 +324,9 @@
     <ClInclude Include="Problem 56-Merge Intervals\Solution56.h">
       <Filter>Problem 56-Merge Intervals</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 100-Same Tree\Solution100.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -472,6 +478,9 @@
     </ClCompile>
     <ClCompile Include="Problem 56-Merge Intervals\Solution56.cpp">
       <Filter>Problem 56-Merge Intervals</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 100-Same Tree\Solution100.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

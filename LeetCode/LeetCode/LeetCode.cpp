@@ -410,8 +410,23 @@ void test56()
 	printf("");
 }
 
+void test100()
+{
+	Solution100 sln;
+	Solution100::TreeNode *p(new Solution100::TreeNode(1));
+	Solution100::TreeNode *q(new Solution100::TreeNode(1));
+	p->left = new Solution100::TreeNode(2);
+	//p->right = new Solution100::TreeNode(3);
+
+	//q->left = new Solution100::TreeNode(2);
+	q->right = new Solution100::TreeNode(2);
+
+	bool bRes{ sln.isSameTree(p, q) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test56();
+	test100();
 	return 0;
 }
