@@ -166,6 +166,9 @@
     <Filter Include="Problem 95-Unique Binary Search Trees II">
       <UniqueIdentifier>{c1ba184a-7749-4f1c-83fc-31005434d608}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 96-Unique Binary Search Trees">
+      <UniqueIdentifier>{65c6451a-3a90-4c45-bca2-672c08983790}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -339,6 +342,9 @@
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h">
       <Filter>Problem 95-Unique Binary Search Trees II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h">
+      <Filter>Problem 96-Unique Binary Search Trees</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -499,6 +505,9 @@
     </ClCompile>
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp">
       <Filter>Problem 95-Unique Binary Search Trees II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp">
+      <Filter>Problem 96-Unique Binary Search Trees</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

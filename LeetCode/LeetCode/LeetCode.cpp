@@ -427,6 +427,13 @@ void test95()
 	printf("");
 }
 
+void test96()
+{
+	Solution96 sln;
+	int res{ sln.numTrees(3) };
+	printf("");
+}
+
 void test100()
 {
 	Solution100 sln;
@@ -444,6 +451,6 @@ void test100()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test95();
+	test96();
 	return 0;
 }

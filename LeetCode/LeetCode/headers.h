@@ -38,4 +38,5 @@
 #include "Problem 56-Merge Intervals/Solution56.h"
 #include "Problem 94-Binary Tree Inorder Traversal/Solution94.h"
 #include "Problem 95-Unique Binary Search Trees II/Solution95.h"
+#include "Problem 96-Unique Binary Search Trees/Solution96.h"
 #include "Problem 100-Same Tree/Solution100.h"
