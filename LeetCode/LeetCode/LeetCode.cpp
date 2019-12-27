@@ -413,23 +413,30 @@ void test56()
 void test94()
 {
 	Solution94 sln;
-	Solution94::TreeNode *p(new Solution94::TreeNode(1));
-	p->left = new Solution94::TreeNode(2);
-	p->right = new Solution94::TreeNode(3);
+	TreeNode *p(new TreeNode(1));
+	p->left = new TreeNode(2);
+	p->right = new TreeNode(3);
 	vector<int> res{ sln.inorderTraversal(p) };
+	printf("");
+}
+
+void test95()
+{
+	Solution95 sln;
+	vector<TreeNode *> res{ sln.generateTrees(3) };
 	printf("");
 }
 
 void test100()
 {
 	Solution100 sln;
-	Solution100::TreeNode *p(new Solution100::TreeNode(1));
-	Solution100::TreeNode *q(new Solution100::TreeNode(1));
-	p->left = new Solution100::TreeNode(2);
-	//p->right = new Solution100::TreeNode(3);
+	TreeNode *p(new TreeNode(1));
+	TreeNode *q(new TreeNode(1));
+	p->left = new TreeNode(2);
+	//p->right = new TreeNode(3);
 
-	//q->left = new Solution100::TreeNode(2);
-	q->right = new Solution100::TreeNode(2);
+	//q->left = new TreeNode(2);
+	q->right = new TreeNode(2);
 
 	bool bRes{ sln.isSameTree(p, q) };
 	printf("");
@@ -437,6 +444,6 @@ void test100()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test94();
+	test95();
 	return 0;
 }

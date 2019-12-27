@@ -163,6 +163,9 @@
     <Filter Include="Problem 94-Binary Tree Inorder Traversal">
       <UniqueIdentifier>{244b0bee-3484-4ad1-af18-2531b3482073}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 95-Unique Binary Search Trees II">
+      <UniqueIdentifier>{c1ba184a-7749-4f1c-83fc-31005434d608}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -333,6 +336,9 @@
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h">
       <Filter>Problem 94-Binary Tree Inorder Traversal</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h">
+      <Filter>Problem 95-Unique Binary Search Trees II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -490,6 +496,9 @@
     </ClCompile>
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp">
       <Filter>Problem 94-Binary Tree Inorder Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp">
+      <Filter>Problem 95-Unique Binary Search Trees II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
