@@ -410,6 +410,14 @@ void test56()
 	printf("");
 }
 
+void test75()
+{
+	Solution75 sln;
+	vector<int> nums{ 2, 0, 2, 1, 1, 0 };
+	sln.sortColors(nums);
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
