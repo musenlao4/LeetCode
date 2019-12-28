@@ -172,6 +172,9 @@
     <Filter Include="Problem 75-Sort Colors">
       <UniqueIdentifier>{277b0ba4-16e2-4706-b93f-8fc883457593}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 76-Minimum Window Substring">
+      <UniqueIdentifier>{34243565-0379-41ac-b248-161e608bf613}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -351,6 +354,9 @@
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h">
       <Filter>Problem 75-Sort Colors</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h">
+      <Filter>Problem 76-Minimum Window Substring</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -517,6 +523,9 @@
     </ClCompile>
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp">
       <Filter>Problem 75-Sort Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp">
+      <Filter>Problem 76-Minimum Window Substring</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

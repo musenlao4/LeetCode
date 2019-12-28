@@ -134,6 +134,7 @@
     <ClInclude Include="Problem 55-Jump Game\Solution55.h" />
     <ClInclude Include="Problem 56-Merge Intervals\Solution56.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
+    <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -192,6 +193,7 @@
     <ClCompile Include="Problem 55-Jump Game\Solution55.cpp" />
     <ClCompile Include="Problem 56-Merge Intervals\Solution56.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />
+    <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />

@@ -418,6 +418,15 @@ void test75()
 	printf("");
 }
 
+void test76()
+{
+	Solution76 sln;
+	string s{ "ADOBECODEBANC" };
+	string t{ "ABC" };
+	string window{ sln.minWindow(s, t) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -459,6 +468,6 @@ void test100()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test96();
+	test76();
 	return 0;
 }
