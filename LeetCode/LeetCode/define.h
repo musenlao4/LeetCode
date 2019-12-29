@@ -12,3 +12,11 @@ struct TreeNode {
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+struct CacheNode {
+	int k;
+	int val;
+	CacheNode *parent;
+	CacheNode *next;
+	CacheNode(int key, int value) : k{ key }, val{ value }, parent{ NULL }, next{ NULL }{}
+};

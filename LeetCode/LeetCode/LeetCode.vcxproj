@@ -91,6 +91,8 @@
     <ClInclude Include="Problem 12-Integer to Roman\Solution12.h" />
     <ClInclude Include="Problem 13-Roman to Integer\Solution13.h" />
     <ClInclude Include="Problem 14-Longest Common Prefix\Solution14.h" />
+    <ClInclude Include="Problem 146-LRU Cache\LRUCache.h" />
+    <ClInclude Include="Problem 146-LRU Cache\Solution146.h" />
     <ClInclude Include="Problem 15-3Sum\Solution15.h" />
     <ClInclude Include="Problem 16-3Sum Closest\Solution16.h" />
     <ClInclude Include="Problem 17-Letter Combinations of a Phone Number\Solution17.h" />
@@ -150,6 +152,8 @@
     <ClCompile Include="Problem 12-Integer to Roman\Solution12.cpp" />
     <ClCompile Include="Problem 13-Roman to Integer\Solution13.cpp" />
     <ClCompile Include="Problem 14-Longest Common Prefix\Solution14.cpp" />
+    <ClCompile Include="Problem 146-LRU Cache\LRUCache.cpp" />
+    <ClCompile Include="Problem 146-LRU Cache\Solution146.cpp" />
     <ClCompile Include="Problem 15-3Sum\Solution15.cpp" />
     <ClCompile Include="Problem 16-3Sum Closest\Solution16.cpp" />
     <ClCompile Include="Problem 17-Letter Combinations of a Phone Number\Solution17.cpp" />

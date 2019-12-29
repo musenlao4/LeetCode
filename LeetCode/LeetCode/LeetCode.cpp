@@ -466,8 +466,21 @@ void test100()
 	printf("");
 }
 
+void test146()
+{
+	Solution146 sln;
+	int nGet{ 0 };
+	sln.init(1);
+	sln.put(2, 1);
+	printf("%d\n", sln.get(2));
+	sln.put(3, 2);
+	printf("%d\n", sln.get(2));
+	printf("%d\n", sln.get(3));
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test76();
+	test146();
 	return 0;
 }

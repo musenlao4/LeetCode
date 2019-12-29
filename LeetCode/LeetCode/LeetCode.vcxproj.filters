@@ -175,6 +175,9 @@
     <Filter Include="Problem 76-Minimum Window Substring">
       <UniqueIdentifier>{34243565-0379-41ac-b248-161e608bf613}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 146-LRU Cache">
+      <UniqueIdentifier>{9fe33a79-fa82-4e77-9389-be5d184c3343}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -357,6 +360,12 @@
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h">
       <Filter>Problem 76-Minimum Window Substring</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 146-LRU Cache\Solution146.h">
+      <Filter>Problem 146-LRU Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 146-LRU Cache\LRUCache.h">
+      <Filter>Problem 146-LRU Cache</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -526,6 +535,12 @@
     </ClCompile>
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp">
       <Filter>Problem 76-Minimum Window Substring</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 146-LRU Cache\Solution146.cpp">
+      <Filter>Problem 146-LRU Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 146-LRU Cache\LRUCache.cpp">
+      <Filter>Problem 146-LRU Cache</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
