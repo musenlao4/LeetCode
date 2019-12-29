@@ -125,6 +125,8 @@
     <ClInclude Include="Problem 44-Wildcard Matching\Solution44.h" />
     <ClInclude Include="Problem 45-Jump Game II\Solution45.h" />
     <ClInclude Include="Problem 46-Permutations\Solution46.h" />
+    <ClInclude Include="Problem 460-LFU Cache\LFUCache.h" />
+    <ClInclude Include="Problem 460-LFU Cache\Solution460.h" />
     <ClInclude Include="Problem 47-Permutations II\Solution47.h" />
     <ClInclude Include="Problem 48-Rotate Image\Solution48.h" />
     <ClInclude Include="Problem 49-Group Anagrams\Solution49.h" />
@@ -186,6 +188,8 @@
     <ClCompile Include="Problem 44-Wildcard Matching\Solution44.cpp" />
     <ClCompile Include="Problem 45-Jump Game II\Solution45.cpp" />
     <ClCompile Include="Problem 46-Permutations\Solution46.cpp" />
+    <ClCompile Include="Problem 460-LFU Cache\LFUCache.cpp" />
+    <ClCompile Include="Problem 460-LFU Cache\Solution460.cpp" />
     <ClCompile Include="Problem 47-Permutations II\Solution47.cpp" />
     <ClCompile Include="Problem 48-Rotate Image\Solution48.cpp" />
     <ClCompile Include="Problem 49-Group Anagrams\Solution49.cpp" />

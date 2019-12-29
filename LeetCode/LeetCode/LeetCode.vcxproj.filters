@@ -178,6 +178,9 @@
     <Filter Include="Problem 146-LRU Cache">
       <UniqueIdentifier>{9fe33a79-fa82-4e77-9389-be5d184c3343}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 460-LFU Cache">
+      <UniqueIdentifier>{abfe2319-1758-46a2-9a1c-327155df51e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -366,6 +369,12 @@
     <ClInclude Include="Problem 146-LRU Cache\LRUCache.h">
       <Filter>Problem 146-LRU Cache</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 460-LFU Cache\Solution460.h">
+      <Filter>Problem 460-LFU Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 460-LFU Cache\LFUCache.h">
+      <Filter>Problem 460-LFU Cache</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -541,6 +550,12 @@
     </ClCompile>
     <ClCompile Include="Problem 146-LRU Cache\LRUCache.cpp">
       <Filter>Problem 146-LRU Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 460-LFU Cache\Solution460.cpp">
+      <Filter>Problem 460-LFU Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 460-LFU Cache\LFUCache.cpp">
+      <Filter>Problem 460-LFU Cache</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

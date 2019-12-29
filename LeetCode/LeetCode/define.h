@@ -16,7 +16,8 @@ struct TreeNode {
 struct CacheNode {
 	int k;
 	int val;
+	int count;
 	CacheNode *parent;
 	CacheNode *next;
-	CacheNode(int key, int value) : k{ key }, val{ value }, parent{ NULL }, next{ NULL }{}
+	CacheNode(int key, int value) : k{ key }, val{ value }, count{ 1 }, parent{ NULL }, next{ NULL }{}
 };

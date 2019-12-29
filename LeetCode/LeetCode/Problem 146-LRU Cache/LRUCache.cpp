@@ -28,8 +28,7 @@ int LRUCache::get(int key)
 	{
 		return -1;
 	}
-	CacheNode *pNode{ m_mapCache[key] };
-	int value{ pNode->val };
+	int value{ m_mapCache[key]->val };
 	moveToEnd(key);
 	return value;
 }
@@ -71,7 +70,6 @@ void LRUCache::put(int key, int value)
 	}
 	else
 	{
-		CacheNode *pNode{ m_mapCache[key] };
 		m_mapCache[key]->val = value;
 		moveToEnd(key);
 	}
