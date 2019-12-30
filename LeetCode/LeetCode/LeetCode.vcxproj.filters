@@ -181,6 +181,9 @@
     <Filter Include="Problem 460-LFU Cache">
       <UniqueIdentifier>{abfe2319-1758-46a2-9a1c-327155df51e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 69-Sqrt%28x%29">
+      <UniqueIdentifier>{e0929e3c-619e-4cce-b6dd-02e3864550a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -375,6 +378,9 @@
     <ClInclude Include="Problem 460-LFU Cache\LFUCache.h">
       <Filter>Problem 460-LFU Cache</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h">
+      <Filter>Problem 69-Sqrt%28x%29</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -556,6 +562,9 @@
     </ClCompile>
     <ClCompile Include="Problem 460-LFU Cache\LFUCache.cpp">
       <Filter>Problem 460-LFU Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp">
+      <Filter>Problem 69-Sqrt%28x%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

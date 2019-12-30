@@ -410,6 +410,13 @@ void test56()
 	printf("");
 }
 
+void test69()
+{
+	Solution69 sln;
+	int res{ sln.mySqrt(8) };
+	printf("");
+}
+
 void test75()
 {
 	Solution75 sln;
@@ -501,6 +508,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test460();
+	test69();
 	return 0;
 }
