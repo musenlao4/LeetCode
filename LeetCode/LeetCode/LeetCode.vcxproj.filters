@@ -184,6 +184,12 @@
     <Filter Include="Problem 69-Sqrt%28x%29">
       <UniqueIdentifier>{e0929e3c-619e-4cce-b6dd-02e3864550a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 367-Valid Perfect Square">
+      <UniqueIdentifier>{a3c5b61f-d915-4ca0-9b90-b62a70f255d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 633-Sum of Square Numbers">
+      <UniqueIdentifier>{b0e43158-16ad-438d-af76-9599a5de1d56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -381,6 +387,12 @@
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h">
       <Filter>Problem 69-Sqrt%28x%29</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 367-Valid Perfect Square\Solution367.h">
+      <Filter>Problem 367-Valid Perfect Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h">
+      <Filter>Problem 633-Sum of Square Numbers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -565,6 +577,12 @@
     </ClCompile>
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp">
       <Filter>Problem 69-Sqrt%28x%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 367-Valid Perfect Square\Solution367.cpp">
+      <Filter>Problem 367-Valid Perfect Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp">
+      <Filter>Problem 633-Sum of Square Numbers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

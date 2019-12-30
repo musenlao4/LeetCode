@@ -491,6 +491,13 @@ void test146()
 	printf("");
 }
 
+void test367()
+{
+	Solution367 sln;
+	bool res{ sln.isPerfectSquare(4) };
+	printf("");
+}
+
 void test460()
 {
 	Solution460 sln;
@@ -508,6 +515,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test69();
+	test367();
 	return 0;
 }

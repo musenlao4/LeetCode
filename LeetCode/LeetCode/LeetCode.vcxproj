@@ -115,6 +115,7 @@
     <ClInclude Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.h" />
     <ClInclude Include="Problem 35-Search Insert Position\Solution35.h" />
     <ClInclude Include="Problem 36-Valid Sudoku\Solution36.h" />
+    <ClInclude Include="Problem 367-Valid Perfect Square\Solution367.h" />
     <ClInclude Include="Problem 37-Sudoku Solver\Solution37.h" />
     <ClInclude Include="Problem 38-Count and Say\Solution38.h" />
     <ClInclude Include="Problem 39-Combination Sum\Solution39.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="Problem 54-Spiral Matrix\Solution54.h" />
     <ClInclude Include="Problem 55-Jump Game\Solution55.h" />
     <ClInclude Include="Problem 56-Merge Intervals\Solution56.h" />
+    <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
@@ -179,6 +181,7 @@
     <ClCompile Include="Problem 34-Find First and Last Position of Element in Sorted Array\Solution34.cpp" />
     <ClCompile Include="Problem 35-Search Insert Position\Solution35.cpp" />
     <ClCompile Include="Problem 36-Valid Sudoku\Solution36.cpp" />
+    <ClCompile Include="Problem 367-Valid Perfect Square\Solution367.cpp" />
     <ClCompile Include="Problem 37-Sudoku Solver\Solution37.cpp" />
     <ClCompile Include="Problem 38-Count and Say\Solution38.cpp" />
     <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp" />
@@ -201,6 +204,7 @@
     <ClCompile Include="Problem 54-Spiral Matrix\Solution54.cpp" />
     <ClCompile Include="Problem 55-Jump Game\Solution55.cpp" />
     <ClCompile Include="Problem 56-Merge Intervals\Solution56.cpp" />
+    <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
