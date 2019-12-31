@@ -440,7 +440,7 @@ void test59()
 void test60()
 {
 	Solution60 sln;
-	string res{ sln.getPermutation(9, 10) };
+	string res{ sln.getPermutationEx(1, 1) };
 	printf("");
 }
 
