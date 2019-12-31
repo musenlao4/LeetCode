@@ -410,6 +410,18 @@ void test56()
 	printf("");
 }
 
+void test57()
+{
+	Solution57 sln;
+	vector<vector<int>> intervals
+	{
+		{1, 5}
+	};
+	vector<int> newInterval{0, 3};
+	vector<vector<int>> res{ sln.insert(intervals, newInterval) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -515,6 +527,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test367();
+	test57();
 	return 0;
 }

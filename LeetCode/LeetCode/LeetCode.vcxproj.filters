@@ -190,6 +190,9 @@
     <Filter Include="Problem 633-Sum of Square Numbers">
       <UniqueIdentifier>{b0e43158-16ad-438d-af76-9599a5de1d56}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 57-Insert Interval">
+      <UniqueIdentifier>{065ee8c1-f5b4-40db-adf4-a8c5e268fd73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -393,6 +396,9 @@
     <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h">
       <Filter>Problem 633-Sum of Square Numbers</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 57-Insert Interval\Solution57.h">
+      <Filter>Problem 57-Insert Interval</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -583,6 +589,9 @@
     </ClCompile>
     <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp">
       <Filter>Problem 633-Sum of Square Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 57-Insert Interval\Solution57.cpp">
+      <Filter>Problem 57-Insert Interval</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
