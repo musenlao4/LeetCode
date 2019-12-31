@@ -437,6 +437,13 @@ void test59()
 	printf("");
 }
 
+void test60()
+{
+	Solution60 sln;
+	string res{ sln.getPermutation(9, 10) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -549,6 +556,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test77();
+	test60();
 	return 0;
 }

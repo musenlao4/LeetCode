@@ -202,6 +202,9 @@
     <Filter Include="Problem 77-Combinations">
       <UniqueIdentifier>{04e3a27c-c979-4d73-b61c-0df38b68ced8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 60-Permutation Sequence">
+      <UniqueIdentifier>{31a349a2-04f6-44ea-9f56-046da0ef90e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -417,6 +420,9 @@
     <ClInclude Include="Problem 77-Combinations\Solution77.h">
       <Filter>Problem 77-Combinations</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 60-Permutation Sequence\Solution60.h">
+      <Filter>Problem 60-Permutation Sequence</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -619,6 +625,9 @@
     </ClCompile>
     <ClCompile Include="Problem 77-Combinations\Solution77.cpp">
       <Filter>Problem 77-Combinations</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 60-Permutation Sequence\Solution60.cpp">
+      <Filter>Problem 60-Permutation Sequence</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
