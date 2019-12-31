@@ -430,6 +430,13 @@ void test58()
 	printf("");
 }
 
+void test59()
+{
+	Solution59 sln;
+	vector<vector<int>> res{ sln.generateMatrix(4) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -535,6 +542,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test58();
+	test59();
 	return 0;
 }

@@ -140,6 +140,7 @@
     <ClInclude Include="Problem 56-Merge Intervals\Solution56.h" />
     <ClInclude Include="Problem 57-Insert Interval\Solution57.h" />
     <ClInclude Include="Problem 58-Length of Last Word\Solution58.h" />
+    <ClInclude Include="Problem 59-Spiral Matrix II\Solution59.h" />
     <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
@@ -208,6 +209,7 @@
     <ClCompile Include="Problem 56-Merge Intervals\Solution56.cpp" />
     <ClCompile Include="Problem 57-Insert Interval\Solution57.cpp" />
     <ClCompile Include="Problem 58-Length of Last Word\Solution58.cpp" />
+    <ClCompile Include="Problem 59-Spiral Matrix II\Solution59.cpp" />
     <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />

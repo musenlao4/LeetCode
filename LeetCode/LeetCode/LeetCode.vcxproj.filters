@@ -196,6 +196,9 @@
     <Filter Include="Problem 58-Length of Last Word">
       <UniqueIdentifier>{77599aff-e730-4d46-945d-547e18594665}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 59-Spiral Matrix II">
+      <UniqueIdentifier>{70e89baf-437b-4fb5-a1be-4c5d39c0cfb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -405,6 +408,9 @@
     <ClInclude Include="Problem 58-Length of Last Word\Solution58.h">
       <Filter>Problem 58-Length of Last Word</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 59-Spiral Matrix II\Solution59.h">
+      <Filter>Problem 59-Spiral Matrix II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -601,6 +607,9 @@
     </ClCompile>
     <ClCompile Include="Problem 58-Length of Last Word\Solution58.cpp">
       <Filter>Problem 58-Length of Last Word</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 59-Spiral Matrix II\Solution59.cpp">
+      <Filter>Problem 59-Spiral Matrix II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
