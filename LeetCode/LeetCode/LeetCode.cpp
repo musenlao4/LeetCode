@@ -422,6 +422,14 @@ void test57()
 	printf("");
 }
 
+void test58()
+{
+	Solution58 sln;
+	string str{ "Hello World   " };
+	int res{ sln.lengthOfLastWord(str) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -527,6 +535,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test57();
+	test58();
 	return 0;
 }

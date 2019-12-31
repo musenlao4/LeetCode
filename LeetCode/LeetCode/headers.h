@@ -37,6 +37,7 @@
 #include "Problem 55-Jump Game/Solution55.h"
 #include "Problem 56-Merge Intervals/Solution56.h"
 #include "Problem 57-Insert Interval/Solution57.h"
+#include "Problem 58-Length of Last Word/Solution58.h"
 #include "Problem 69-Sqrt(x)/Solution69.h"
 #include "Problem 75-Sort Colors/Solution75.h"
 #include "Problem 76-Minimum Window Substring/Solution76.h"
