@@ -145,6 +145,7 @@
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
+    <ClInclude Include="Problem 77-Combinations\Solution77.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -214,6 +215,7 @@
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
+    <ClCompile Include="Problem 77-Combinations\Solution77.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />

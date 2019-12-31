@@ -461,6 +461,13 @@ void test76()
 	printf("");
 }
 
+void test77()
+{
+	Solution77 sln;
+	vector<vector<int>> res{ sln.combine(4, 2) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -542,6 +549,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test59();
+	test77();
 	return 0;
 }
