@@ -539,6 +539,14 @@ void test367()
 	printf("");
 }
 
+void test416()
+{
+	Solution416 sln;
+	vector<int> vec{ 1, 5, 3, 1 };
+	bool res{ sln.canPartition(vec) };
+	printf("");
+}
+
 void test460()
 {
 	Solution460 sln;
@@ -556,6 +564,6 @@ void test460()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test60();
+	test416();
 	return 0;
 }

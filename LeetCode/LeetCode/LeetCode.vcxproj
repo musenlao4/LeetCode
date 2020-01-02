@@ -121,6 +121,7 @@
     <ClInclude Include="Problem 39-Combination Sum\Solution39.h" />
     <ClInclude Include="Problem 40-Combination Sum II\Solution40.h" />
     <ClInclude Include="Problem 41-First Missing Positive\Solution41.h" />
+    <ClInclude Include="Problem 416-Partition Equal Subset Sum\Solution416.h" />
     <ClInclude Include="Problem 42-Trapping Rain Water\Solution42.h" />
     <ClInclude Include="Problem 43-Multiply Strings\Solution43.h" />
     <ClInclude Include="Problem 44-Wildcard Matching\Solution44.h" />
@@ -192,6 +193,7 @@
     <ClCompile Include="Problem 39-Combination Sum\Solution39.cpp" />
     <ClCompile Include="Problem 40-Combination Sum II\Solution40.cpp" />
     <ClCompile Include="Problem 41-First Missing Positive\Solution41.cpp" />
+    <ClCompile Include="Problem 416-Partition Equal Subset Sum\Solution416.cpp" />
     <ClCompile Include="Problem 42-Trapping Rain Water\Solution42.cpp" />
     <ClCompile Include="Problem 43-Multiply Strings\Solution43.cpp" />
     <ClCompile Include="Problem 44-Wildcard Matching\Solution44.cpp" />

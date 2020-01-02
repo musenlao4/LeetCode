@@ -50,4 +50,5 @@
 #include "Problem 100-Same Tree/Solution100.h"
 #include "Problem 146-LRU Cache/Solution146.h"
 #include "Problem 367-Valid Perfect Square/Solution367.h"
+#include "Problem 416-Partition Equal Subset Sum/Solution416.h"
 #include "Problem 460-LFU Cache/Solution460.h"
