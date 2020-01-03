@@ -514,6 +514,19 @@ void test100()
 	printf("");
 }
 
+void test115()
+{
+	Solution115 sln;
+	//"daacaedaceacabbaabdccdaaeaebacddadcaeaacadbceaecddecdeedcebcdacdaebccdeebcbdeaccabcecbeeaadbccbaeccbbdaeadecabbbedceaddcdeabbcdaeadcddedddcececbeeabcbecaeadddeddccbdbcdcbceabcacddbbcedebbcaccac"
+	//"ceadbaa"
+	string str1{ "daacaedaceacabbaabdccdaaeaebacddadcaeaacadbceaecddecdeedcebcdacdaebccdeebcbdeaccabcecbeeaadbccbaeccbbdaeadecabbbedceaddcdeabbcdaeadcddedddcececbeeabcbecaeadddeddccbdbcdcbceabcacddbbcedebbcaccac" };
+	string str2{ "ceadbaa" };
+	//string str1{ "rabbbit" };
+	//string str2{ "rabbit" };
+	int count{ sln.numDistinct(str1, str2) };
+	printf("");
+}
+
 void test146()
 {
 	Solution146 sln;
@@ -562,8 +575,15 @@ void test460()
 	printf("");
 }
 
+void test633()
+{
+	Solution633 sln;
+	bool res{ sln.judgeSquareSum(9) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test416();
+	test115();
 	return 0;
 }

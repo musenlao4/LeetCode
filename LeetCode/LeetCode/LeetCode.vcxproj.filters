@@ -208,6 +208,9 @@
     <Filter Include="Problem 416-Partition Equal Subset Sum">
       <UniqueIdentifier>{91af1e55-3407-4d6d-b870-52d24941ccd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 115-Distinct Subsequences">
+      <UniqueIdentifier>{870d0d30-1732-4942-9e72-90f449eb77c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -429,6 +432,9 @@
     <ClInclude Include="Problem 416-Partition Equal Subset Sum\Solution416.h">
       <Filter>Problem 416-Partition Equal Subset Sum</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 115-Distinct Subsequences\Solution115.h">
+      <Filter>Problem 115-Distinct Subsequences</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -637,6 +643,9 @@
     </ClCompile>
     <ClCompile Include="Problem 416-Partition Equal Subset Sum\Solution416.cpp">
       <Filter>Problem 416-Partition Equal Subset Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 115-Distinct Subsequences\Solution115.cpp">
+      <Filter>Problem 115-Distinct Subsequences</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

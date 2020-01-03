@@ -88,6 +88,7 @@
     <ClInclude Include="Problem 10-Regular Expression Matching\Solution10.h" />
     <ClInclude Include="Problem 100-Same Tree\Solution100.h" />
     <ClInclude Include="Problem 11-Container With Most Water\Solution11.h" />
+    <ClInclude Include="Problem 115-Distinct Subsequences\Solution115.h" />
     <ClInclude Include="Problem 12-Integer to Roman\Solution12.h" />
     <ClInclude Include="Problem 13-Roman to Integer\Solution13.h" />
     <ClInclude Include="Problem 14-Longest Common Prefix\Solution14.h" />
@@ -160,6 +161,7 @@
     <ClCompile Include="Problem 10-Regular Expression Matching\Solution10.cpp" />
     <ClCompile Include="Problem 100-Same Tree\Solution100.cpp" />
     <ClCompile Include="Problem 11-Container With Most Water\Solution11.cpp" />
+    <ClCompile Include="Problem 115-Distinct Subsequences\Solution115.cpp" />
     <ClCompile Include="Problem 12-Integer to Roman\Solution12.cpp" />
     <ClCompile Include="Problem 13-Roman to Integer\Solution13.cpp" />
     <ClCompile Include="Problem 14-Longest Common Prefix\Solution14.cpp" />
