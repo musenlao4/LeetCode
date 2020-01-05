@@ -451,6 +451,15 @@ void test69()
 	printf("");
 }
 
+void test72()
+{
+	Solution72 sln;
+	string str1{ "horse" };
+	string str2{ "ros" };
+	int count{ sln.minDistance(str1, str2) };
+	printf("");
+}
+
 void test75()
 {
 	Solution75 sln;
@@ -584,6 +593,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test115();
+	test72();
 	return 0;
 }

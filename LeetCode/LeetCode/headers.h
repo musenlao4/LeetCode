@@ -41,6 +41,7 @@
 #include "Problem 59-Spiral Matrix II/Solution59.h"
 #include "Problem 60-Permutation Sequence/Solution60.h"
 #include "Problem 69-Sqrt(x)/Solution69.h"
+#include "Problem 72-Edit Distance/Solution72.h"
 #include "Problem 75-Sort Colors/Solution75.h"
 #include "Problem 76-Minimum Window Substring/Solution76.h"
 #include "Problem 77-Combinations/Solution77.h"

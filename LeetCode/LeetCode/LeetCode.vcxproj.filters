@@ -211,6 +211,9 @@
     <Filter Include="Problem 115-Distinct Subsequences">
       <UniqueIdentifier>{870d0d30-1732-4942-9e72-90f449eb77c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 72-Edit Distance">
+      <UniqueIdentifier>{d60da97e-394a-4588-a05f-ae211b30c9aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -435,6 +438,9 @@
     <ClInclude Include="Problem 115-Distinct Subsequences\Solution115.h">
       <Filter>Problem 115-Distinct Subsequences</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 72-Edit Distance\Solution72.h">
+      <Filter>Problem 72-Edit Distance</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -646,6 +652,9 @@
     </ClCompile>
     <ClCompile Include="Problem 115-Distinct Subsequences\Solution115.cpp">
       <Filter>Problem 115-Distinct Subsequences</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp">
+      <Filter>Problem 72-Edit Distance</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
