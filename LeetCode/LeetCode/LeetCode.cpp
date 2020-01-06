@@ -444,6 +444,28 @@ void test60()
 	printf("");
 }
 
+void test61()
+{
+	Solution61 sln;
+	ListNode *head = new ListNode(1);
+	ListNode *p{ head };
+	for (int i = 2; i <= 5; i++)
+	{
+		ListNode *node = new ListNode(i);
+		p->next = node;
+		p = node;
+	}
+	ListNode *res{ sln.rotateRight(head, 2) };
+	printf("");
+}
+
+void test62()
+{
+	Solution62 sln;
+	int res{ sln.uniquePathsEx(10, 10) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -593,6 +615,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test72();
+	test62();
 	return 0;
 }

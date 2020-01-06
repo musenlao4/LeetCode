@@ -214,6 +214,12 @@
     <Filter Include="Problem 72-Edit Distance">
       <UniqueIdentifier>{d60da97e-394a-4588-a05f-ae211b30c9aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 61-Rotate List">
+      <UniqueIdentifier>{6d09cfe8-e84d-4544-8e4c-163c1ed2fcb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 62-Unique Paths">
+      <UniqueIdentifier>{dcc9dea2-8bd0-4e99-aa9a-7df0525ff50a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -441,6 +447,12 @@
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h">
       <Filter>Problem 72-Edit Distance</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 61-Rotate List\Solution61.h">
+      <Filter>Problem 61-Rotate List</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 62-Unique Paths\Solution62.h">
+      <Filter>Problem 62-Unique Paths</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -655,6 +667,12 @@
     </ClCompile>
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp">
       <Filter>Problem 72-Edit Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 61-Rotate List\Solution61.cpp">
+      <Filter>Problem 61-Rotate List</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 62-Unique Paths\Solution62.cpp">
+      <Filter>Problem 62-Unique Paths</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -144,6 +144,8 @@
     <ClInclude Include="Problem 58-Length of Last Word\Solution58.h" />
     <ClInclude Include="Problem 59-Spiral Matrix II\Solution59.h" />
     <ClInclude Include="Problem 60-Permutation Sequence\Solution60.h" />
+    <ClInclude Include="Problem 61-Rotate List\Solution61.h" />
+    <ClInclude Include="Problem 62-Unique Paths\Solution62.h" />
     <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h" />
@@ -218,6 +220,8 @@
     <ClCompile Include="Problem 58-Length of Last Word\Solution58.cpp" />
     <ClCompile Include="Problem 59-Spiral Matrix II\Solution59.cpp" />
     <ClCompile Include="Problem 60-Permutation Sequence\Solution60.cpp" />
+    <ClCompile Include="Problem 61-Rotate List\Solution61.cpp" />
+    <ClCompile Include="Problem 62-Unique Paths\Solution62.cpp" />
     <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp" />
