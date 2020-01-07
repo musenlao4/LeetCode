@@ -146,6 +146,7 @@
     <ClInclude Include="Problem 60-Permutation Sequence\Solution60.h" />
     <ClInclude Include="Problem 61-Rotate List\Solution61.h" />
     <ClInclude Include="Problem 62-Unique Paths\Solution62.h" />
+    <ClInclude Include="Problem 63-Unique Paths II\Solution63.h" />
     <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h" />
@@ -222,6 +223,7 @@
     <ClCompile Include="Problem 60-Permutation Sequence\Solution60.cpp" />
     <ClCompile Include="Problem 61-Rotate List\Solution61.cpp" />
     <ClCompile Include="Problem 62-Unique Paths\Solution62.cpp" />
+    <ClCompile Include="Problem 63-Unique Paths II\Solution63.cpp" />
     <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp" />

@@ -42,6 +42,7 @@
 #include "Problem 60-Permutation Sequence/Solution60.h"
 #include "Problem 61-Rotate List/Solution61.h"
 #include "Problem 62-Unique Paths/Solution62.h"
+#include "Problem 63-Unique Paths II/Solution63.h"
 #include "Problem 69-Sqrt(x)/Solution69.h"
 #include "Problem 72-Edit Distance/Solution72.h"
 #include "Problem 75-Sort Colors/Solution75.h"
