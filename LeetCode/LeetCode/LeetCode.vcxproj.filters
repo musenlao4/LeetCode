@@ -238,6 +238,9 @@
     <Filter Include="Problem 68-Text Justification">
       <UniqueIdentifier>{fef2c12d-4184-41c0-b476-b02a89303cad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 70-Climbing Stairs">
+      <UniqueIdentifier>{1eb13264-23fe-4647-9c0b-d0a6c5f6d0aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -489,6 +492,9 @@
     <ClInclude Include="common\common.h">
       <Filter>common</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 70-Climbing Stairs\Solution70.h">
+      <Filter>Problem 70-Climbing Stairs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -727,6 +733,9 @@
     </ClCompile>
     <ClCompile Include="Problem 68-Text Justification\Solution68.cpp">
       <Filter>Problem 68-Text Justification</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 70-Climbing Stairs\Solution70.cpp">
+      <Filter>Problem 70-Climbing Stairs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

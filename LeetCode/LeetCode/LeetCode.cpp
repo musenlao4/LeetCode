@@ -550,6 +550,13 @@ void test69()
 	printf("");
 }
 
+void test70()
+{
+	Solution70 sln;
+	int res{ sln.climbStairs(10) };
+	printf("");
+}
+
 void test72()
 {
 	Solution72 sln;
