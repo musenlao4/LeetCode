@@ -235,6 +235,9 @@
     <Filter Include="Problem 53-Maximum Subarray">
       <UniqueIdentifier>{d7468d6f-60ba-4832-b2de-b78636f83661}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 68-Text Justification">
+      <UniqueIdentifier>{fef2c12d-4184-41c0-b476-b02a89303cad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -263,9 +266,6 @@
     </ClInclude>
     <ClInclude Include="Problem 15-3Sum\Solution15.h">
       <Filter>Problem 15-3Sum</Filter>
-    </ClInclude>
-    <ClInclude Include="common\common.h">
-      <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="Problem 16-3Sum Closest\Solution16.h">
       <Filter>Problem 16-3Sum Closest</Filter>
@@ -311,9 +311,6 @@
     </ClInclude>
     <ClInclude Include="Problem 29-Divide Two Integers\Solution29.h">
       <Filter>Problem 29-Divide Two Integers</Filter>
-    </ClInclude>
-    <ClInclude Include="common\operation_math.h">
-      <Filter>common</Filter>
     </ClInclude>
     <ClInclude Include="Problem 28-Implement strStr\Solution28.h">
       <Filter>Problem 28-Implement strStr</Filter>
@@ -482,6 +479,15 @@
     </ClInclude>
     <ClInclude Include="Problem 67-Add Binary\Solution67.h">
       <Filter>Problem 67-Add Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 68-Text Justification\Solution68.h">
+      <Filter>Problem 68-Text Justification</Filter>
+    </ClInclude>
+    <ClInclude Include="common\operation_math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -718,6 +724,9 @@
     </ClCompile>
     <ClCompile Include="Problem 67-Add Binary\Solution67.cpp">
       <Filter>Problem 67-Add Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 68-Text Justification\Solution68.cpp">
+      <Filter>Problem 68-Text Justification</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

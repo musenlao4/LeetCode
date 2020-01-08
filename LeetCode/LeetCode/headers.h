@@ -47,6 +47,7 @@
 #include "Problem 65-Valid Number/Solution65.h"
 #include "Problem 66-Plus One/Solution66.h"
 #include "Problem 67-Add Binary/Solution67.h"
+#include "Problem 68-Text Justification/Solution68.h"
 #include "Problem 69-Sqrt(x)/Solution69.h"
 #include "Problem 72-Edit Distance/Solution72.h"
 #include "Problem 75-Sort Colors/Solution75.h"

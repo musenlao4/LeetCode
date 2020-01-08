@@ -535,6 +535,14 @@ void test67()
 	printf("");
 }
 
+void test68()
+{
+	Solution68 sln;
+	vector<string> words{ "This", "is", "an", "example", "of", "text", "justification." };
+	vector<string> res{ sln.fullJustify(words, 16) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -684,6 +692,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test67();
+	test68();
 	return 0;
 }
