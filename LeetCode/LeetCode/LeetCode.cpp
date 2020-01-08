@@ -526,6 +526,15 @@ void test66()
 	printf("");
 }
 
+void test67()
+{
+	Solution67 sln;
+	string a{"110"};
+	string b{"10"};
+	string res{ sln.addBinary(a, b) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -675,6 +684,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test66();
+	test67();
 	return 0;
 }

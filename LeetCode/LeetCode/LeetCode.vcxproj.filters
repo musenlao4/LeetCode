@@ -139,9 +139,6 @@
     <Filter Include="Problem 52-N-Queens II">
       <UniqueIdentifier>{cc381fd4-521d-46f0-9589-bcceea449ffc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Problem 53-Maximum Subarray">
-      <UniqueIdentifier>{d7468d6f-60ba-4832-b2de-b78636f83661}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Problem 54-Spiral Matrix">
       <UniqueIdentifier>{754e48b9-d27a-4936-86d3-e5a75f8f0a54}</UniqueIdentifier>
     </Filter>
@@ -231,6 +228,12 @@
     </Filter>
     <Filter Include="Problem 66-Plus One">
       <UniqueIdentifier>{69846813-a04b-433c-8615-3738b6b8f84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 67-Add Binary">
+      <UniqueIdentifier>{ab661626-e804-4feb-a2ff-eed5977fd987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 53-Maximum Subarray">
+      <UniqueIdentifier>{d7468d6f-60ba-4832-b2de-b78636f83661}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -477,6 +480,9 @@
     <ClInclude Include="Problem 66-Plus One\Solution66.h">
       <Filter>Problem 66-Plus One</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 67-Add Binary\Solution67.h">
+      <Filter>Problem 67-Add Binary</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -709,6 +715,9 @@
     </ClCompile>
     <ClCompile Include="Problem 66-Plus One\Solution66.cpp">
       <Filter>Problem 66-Plus One</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 67-Add Binary\Solution67.cpp">
+      <Filter>Problem 67-Add Binary</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
