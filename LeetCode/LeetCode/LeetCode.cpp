@@ -498,6 +498,19 @@ void test63()
 	printf("");
 }
 
+void test64()
+{
+	Solution64 sln;
+	vector<vector<int>> gird
+	{
+		{1, 3, 1},
+		{1, 1, 1},
+		{4, 5, 1}
+	};
+	int res{ sln.minPathSum(gird) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;

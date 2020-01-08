@@ -223,6 +223,9 @@
     <Filter Include="Problem 63-Unique Paths II">
       <UniqueIdentifier>{15c91f19-00b2-47c3-82c9-eabb2118adde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 64-Minimum Path Sum">
+      <UniqueIdentifier>{e8546835-244d-48fd-95ba-d8568d78ab93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -459,6 +462,9 @@
     <ClInclude Include="Problem 63-Unique Paths II\Solution63.h">
       <Filter>Problem 63-Unique Paths II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 64-Minimum Path Sum\Solution64.h">
+      <Filter>Problem 64-Minimum Path Sum</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -682,6 +688,9 @@
     </ClCompile>
     <ClCompile Include="Problem 63-Unique Paths II\Solution63.cpp">
       <Filter>Problem 63-Unique Paths II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 64-Minimum Path Sum\Solution64.cpp">
+      <Filter>Problem 64-Minimum Path Sum</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
