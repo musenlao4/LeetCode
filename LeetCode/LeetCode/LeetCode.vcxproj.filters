@@ -241,6 +241,9 @@
     <Filter Include="Problem 70-Climbing Stairs">
       <UniqueIdentifier>{1eb13264-23fe-4647-9c0b-d0a6c5f6d0aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 71-Simplify Path">
+      <UniqueIdentifier>{eaaf0ae0-22d2-45a6-bc72-27b97e2ae2bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -495,6 +498,9 @@
     <ClInclude Include="Problem 70-Climbing Stairs\Solution70.h">
       <Filter>Problem 70-Climbing Stairs</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 71-Simplify Path\Solution71.h">
+      <Filter>Problem 71-Simplify Path</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -736,6 +742,9 @@
     </ClCompile>
     <ClCompile Include="Problem 70-Climbing Stairs\Solution70.cpp">
       <Filter>Problem 70-Climbing Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 71-Simplify Path\Solution71.cpp">
+      <Filter>Problem 71-Simplify Path</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

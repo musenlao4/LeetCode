@@ -50,6 +50,7 @@
 #include "Problem 68-Text Justification/Solution68.h"
 #include "Problem 69-Sqrt(x)/Solution69.h"
 #include "Problem 70-Climbing Stairs/Solution70.h"
+#include "Problem 71-Simplify Path/Solution71.h"
 #include "Problem 72-Edit Distance/Solution72.h"
 #include "Problem 75-Sort Colors/Solution75.h"
 #include "Problem 76-Minimum Window Substring/Solution76.h"

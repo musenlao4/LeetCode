@@ -557,6 +557,13 @@ void test70()
 	printf("");
 }
 
+void test71()
+{
+	Solution71 sln;
+	string res{ sln.simplifyPath("/home//foo/") };
+	printf("");
+}
+
 void test72()
 {
 	Solution72 sln;
@@ -699,6 +706,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test68();
+	test71();
 	return 0;
 }

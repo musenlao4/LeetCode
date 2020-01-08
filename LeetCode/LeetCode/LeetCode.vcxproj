@@ -155,6 +155,7 @@
     <ClInclude Include="Problem 68-Text Justification\Solution68.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 70-Climbing Stairs\Solution70.h" />
+    <ClInclude Include="Problem 71-Simplify Path\Solution71.h" />
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
@@ -238,6 +239,7 @@
     <ClCompile Include="Problem 68-Text Justification\Solution68.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 70-Climbing Stairs\Solution70.cpp" />
+    <ClCompile Include="Problem 71-Simplify Path\Solution71.cpp" />
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
