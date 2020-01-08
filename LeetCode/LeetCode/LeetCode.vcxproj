@@ -149,6 +149,7 @@
     <ClInclude Include="Problem 63-Unique Paths II\Solution63.h" />
     <ClInclude Include="Problem 633-Sum of Square Numbers\Solution633.h" />
     <ClInclude Include="Problem 64-Minimum Path Sum\Solution64.h" />
+    <ClInclude Include="Problem 65-Valid Number\Solution65.h" />
     <ClInclude Include="Problem 69-Sqrt(x)\Solution69.h" />
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
@@ -227,6 +228,7 @@
     <ClCompile Include="Problem 63-Unique Paths II\Solution63.cpp" />
     <ClCompile Include="Problem 633-Sum of Square Numbers\Solution633.cpp" />
     <ClCompile Include="Problem 64-Minimum Path Sum\Solution64.cpp" />
+    <ClCompile Include="Problem 65-Valid Number\Solution65.cpp" />
     <ClCompile Include="Problem 69-Sqrt(x)\Solution69.cpp" />
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />

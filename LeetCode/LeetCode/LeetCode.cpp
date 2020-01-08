@@ -511,6 +511,13 @@ void test64()
 	printf("");
 }
 
+void test65()
+{
+	Solution65 sln;
+	bool res{ sln.isNumber("+.8") };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -660,6 +667,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test63();
+	test65();
 	return 0;
 }

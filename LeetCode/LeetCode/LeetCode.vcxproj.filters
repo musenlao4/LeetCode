@@ -130,12 +130,6 @@
     <Filter Include="Problem 48-Rotate Image">
       <UniqueIdentifier>{7a205608-11d1-4938-8447-709f404a042f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Problem 49-Group Anagrams">
-      <UniqueIdentifier>{4b03517c-4851-4a7b-911c-8654ac6aede9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Problem 50-Pow%28x, n%29">
-      <UniqueIdentifier>{e17c8216-b20b-4911-ab89-73f525911338}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Problem 37-Sudoku Solver">
       <UniqueIdentifier>{2cff4808-dc71-4987-8f59-15f4dc68161d}</UniqueIdentifier>
     </Filter>
@@ -225,6 +219,15 @@
     </Filter>
     <Filter Include="Problem 64-Minimum Path Sum">
       <UniqueIdentifier>{e8546835-244d-48fd-95ba-d8568d78ab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 65-Valid Number">
+      <UniqueIdentifier>{2202ead6-9e63-4e4e-acbb-b687064f4f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 49-Group Anagrams">
+      <UniqueIdentifier>{4b03517c-4851-4a7b-911c-8654ac6aede9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 50-Pow%28x, n%29">
+      <UniqueIdentifier>{e17c8216-b20b-4911-ab89-73f525911338}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -465,6 +468,9 @@
     <ClInclude Include="Problem 64-Minimum Path Sum\Solution64.h">
       <Filter>Problem 64-Minimum Path Sum</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 65-Valid Number\Solution65.h">
+      <Filter>Problem 65-Valid Number</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -691,6 +697,9 @@
     </ClCompile>
     <ClCompile Include="Problem 64-Minimum Path Sum\Solution64.cpp">
       <Filter>Problem 64-Minimum Path Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 65-Valid Number\Solution65.cpp">
+      <Filter>Problem 65-Valid Number</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
