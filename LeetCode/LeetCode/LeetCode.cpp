@@ -518,6 +518,14 @@ void test65()
 	printf("");
 }
 
+void test66()
+{
+	Solution66 sln;
+	vector<int> digits{ 9, 9 };
+	vector<int> res{ sln.plusOne(digits) };
+	printf("");
+}
+
 void test69()
 {
 	Solution69 sln;
@@ -667,6 +675,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test65();
+	test66();
 	return 0;
 }

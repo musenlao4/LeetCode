@@ -229,6 +229,9 @@
     <Filter Include="Problem 50-Pow%28x, n%29">
       <UniqueIdentifier>{e17c8216-b20b-4911-ab89-73f525911338}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 66-Plus One">
+      <UniqueIdentifier>{69846813-a04b-433c-8615-3738b6b8f84e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -471,6 +474,9 @@
     <ClInclude Include="Problem 65-Valid Number\Solution65.h">
       <Filter>Problem 65-Valid Number</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 66-Plus One\Solution66.h">
+      <Filter>Problem 66-Plus One</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -700,6 +706,9 @@
     </ClCompile>
     <ClCompile Include="Problem 65-Valid Number\Solution65.cpp">
       <Filter>Problem 65-Valid Number</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 66-Plus One\Solution66.cpp">
+      <Filter>Problem 66-Plus One</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
