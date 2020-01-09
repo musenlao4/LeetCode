@@ -244,6 +244,9 @@
     <Filter Include="Problem 71-Simplify Path">
       <UniqueIdentifier>{eaaf0ae0-22d2-45a6-bc72-27b97e2ae2bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 73-Set Matrix Zeroes">
+      <UniqueIdentifier>{c2c3f47e-7d5b-4010-a1e3-8839b1e654cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -501,6 +504,9 @@
     <ClInclude Include="Problem 71-Simplify Path\Solution71.h">
       <Filter>Problem 71-Simplify Path</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 73-Set Matrix Zeroes\Solution73.h">
+      <Filter>Problem 73-Set Matrix Zeroes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -745,6 +751,9 @@
     </ClCompile>
     <ClCompile Include="Problem 71-Simplify Path\Solution71.cpp">
       <Filter>Problem 71-Simplify Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 73-Set Matrix Zeroes\Solution73.cpp">
+      <Filter>Problem 73-Set Matrix Zeroes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

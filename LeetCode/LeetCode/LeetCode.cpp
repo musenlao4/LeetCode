@@ -573,6 +573,19 @@ void test72()
 	printf("");
 }
 
+void test73()
+{
+	Solution73 sln;
+	vector<vector<int>> matrix
+	{
+		{1},
+		{0},
+		{1}
+	};
+	sln.setZeroes(matrix);
+	printf("");
+}
+
 void test75()
 {
 	Solution75 sln;
@@ -706,6 +719,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test71();
+	test73();
 	return 0;
 }
