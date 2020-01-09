@@ -247,6 +247,9 @@
     <Filter Include="Problem 73-Set Matrix Zeroes">
       <UniqueIdentifier>{c2c3f47e-7d5b-4010-a1e3-8839b1e654cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 74-Search a 2D Matrix">
+      <UniqueIdentifier>{4e615deb-f595-47a0-b658-917d2155bba3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -507,6 +510,9 @@
     <ClInclude Include="Problem 73-Set Matrix Zeroes\Solution73.h">
       <Filter>Problem 73-Set Matrix Zeroes</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 74-Search a 2D Matrix\Solution74.h">
+      <Filter>Problem 74-Search a 2D Matrix</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -754,6 +760,9 @@
     </ClCompile>
     <ClCompile Include="Problem 73-Set Matrix Zeroes\Solution73.cpp">
       <Filter>Problem 73-Set Matrix Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 74-Search a 2D Matrix\Solution74.cpp">
+      <Filter>Problem 74-Search a 2D Matrix</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

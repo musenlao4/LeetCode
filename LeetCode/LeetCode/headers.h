@@ -53,6 +53,7 @@
 #include "Problem 71-Simplify Path/Solution71.h"
 #include "Problem 72-Edit Distance/Solution72.h"
 #include "Problem 73-Set Matrix Zeroes/Solution73.h"
+#include "Problem 74-Search a 2D Matrix/Solution74.h"
 #include "Problem 75-Sort Colors/Solution75.h"
 #include "Problem 76-Minimum Window Substring/Solution76.h"
 #include "Problem 77-Combinations/Solution77.h"

@@ -586,6 +586,19 @@ void test73()
 	printf("");
 }
 
+void test74()
+{
+	Solution74 sln;
+	vector<vector<int>> matrix = 
+	{
+		{1, 3, 5, 7},
+		{10, 11, 16, 20},
+		{23, 30, 34, 50}
+	};
+	bool res{ sln.searchMatrix(matrix, 3) };
+	printf("");
+}
+
 void test75()
 {
 	Solution75 sln;
@@ -719,6 +732,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test73();
+	test74();
 	return 0;
 }

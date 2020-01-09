@@ -158,6 +158,7 @@
     <ClInclude Include="Problem 71-Simplify Path\Solution71.h" />
     <ClInclude Include="Problem 72-Edit Distance\Solution72.h" />
     <ClInclude Include="Problem 73-Set Matrix Zeroes\Solution73.h" />
+    <ClInclude Include="Problem 74-Search a 2D Matrix\Solution74.h" />
     <ClInclude Include="Problem 75-Sort Colors\Solution75.h" />
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
     <ClInclude Include="Problem 77-Combinations\Solution77.h" />
@@ -243,6 +244,7 @@
     <ClCompile Include="Problem 71-Simplify Path\Solution71.cpp" />
     <ClCompile Include="Problem 72-Edit Distance\Solution72.cpp" />
     <ClCompile Include="Problem 73-Set Matrix Zeroes\Solution73.cpp" />
+    <ClCompile Include="Problem 74-Search a 2D Matrix\Solution74.cpp" />
     <ClCompile Include="Problem 75-Sort Colors\Solution75.cpp" />
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
     <ClCompile Include="Problem 77-Combinations\Solution77.cpp" />
