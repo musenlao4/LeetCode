@@ -57,6 +57,7 @@
 #include "Problem 75-Sort Colors/Solution75.h"
 #include "Problem 76-Minimum Window Substring/Solution76.h"
 #include "Problem 77-Combinations/Solution77.h"
+#include "Problem 78-Subsets/Solution78.h"
 #include "Problem 94-Binary Tree Inorder Traversal/Solution94.h"
 #include "Problem 95-Unique Binary Search Trees II/Solution95.h"
 #include "Problem 96-Unique Binary Search Trees/Solution96.h"

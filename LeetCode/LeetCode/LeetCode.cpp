@@ -623,6 +623,14 @@ void test77()
 	printf("");
 }
 
+void test78()
+{
+	Solution78 sln;
+	vector<int> nums{ 1, 2, 3 };
+	vector<vector<int>> res{ sln.subsets(nums) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;

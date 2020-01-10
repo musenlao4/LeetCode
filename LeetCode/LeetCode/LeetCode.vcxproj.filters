@@ -250,6 +250,9 @@
     <Filter Include="Problem 74-Search a 2D Matrix">
       <UniqueIdentifier>{4e615deb-f595-47a0-b658-917d2155bba3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 78-Subsets">
+      <UniqueIdentifier>{815b3f1a-ec7c-4965-a0b8-aa0c5abab98e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -513,6 +516,9 @@
     <ClInclude Include="Problem 74-Search a 2D Matrix\Solution74.h">
       <Filter>Problem 74-Search a 2D Matrix</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 78-Subsets\Solution78.h">
+      <Filter>Problem 78-Subsets</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -763,6 +769,9 @@
     </ClCompile>
     <ClCompile Include="Problem 74-Search a 2D Matrix\Solution74.cpp">
       <Filter>Problem 74-Search a 2D Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 78-Subsets\Solution78.cpp">
+      <Filter>Problem 78-Subsets</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
