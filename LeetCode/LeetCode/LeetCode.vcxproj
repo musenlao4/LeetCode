@@ -163,6 +163,7 @@
     <ClInclude Include="Problem 76-Minimum Window Substring\Solution76.h" />
     <ClInclude Include="Problem 77-Combinations\Solution77.h" />
     <ClInclude Include="Problem 78-Subsets\Solution78.h" />
+    <ClInclude Include="Problem 79-Word Search\Solution79.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -250,6 +251,7 @@
     <ClCompile Include="Problem 76-Minimum Window Substring\Solution76.cpp" />
     <ClCompile Include="Problem 77-Combinations\Solution77.cpp" />
     <ClCompile Include="Problem 78-Subsets\Solution78.cpp" />
+    <ClCompile Include="Problem 79-Word Search\Solution79.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />

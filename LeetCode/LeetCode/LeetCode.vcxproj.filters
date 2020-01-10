@@ -253,6 +253,9 @@
     <Filter Include="Problem 78-Subsets">
       <UniqueIdentifier>{815b3f1a-ec7c-4965-a0b8-aa0c5abab98e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 79-Word Search">
+      <UniqueIdentifier>{733a6b46-ab34-430d-8dbb-07f40c7f50c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -519,6 +522,9 @@
     <ClInclude Include="Problem 78-Subsets\Solution78.h">
       <Filter>Problem 78-Subsets</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 79-Word Search\Solution79.h">
+      <Filter>Problem 79-Word Search</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -772,6 +778,9 @@
     </ClCompile>
     <ClCompile Include="Problem 78-Subsets\Solution78.cpp">
       <Filter>Problem 78-Subsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 79-Word Search\Solution79.cpp">
+      <Filter>Problem 79-Word Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
