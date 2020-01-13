@@ -631,6 +631,21 @@ void test78()
 	printf("");
 }
 
+void test82()
+{
+	Solution82 sln;
+	ListNode *head{ new ListNode(1) };
+	vector<int> elems{ 1, 1, 1, 2, 3, 5 };
+	ListNode *p{ head };
+	for (auto elem : elems)
+	{
+		p->next = new ListNode(elem);
+		p = p->next;
+	}
+	ListNode *res{ sln.deleteDuplicates(head) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -740,6 +755,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test74();
+	test82();
 	return 0;
 }

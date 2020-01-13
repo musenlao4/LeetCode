@@ -262,6 +262,9 @@
     <Filter Include="Problem 81-Search in Rotated Sorted Array II">
       <UniqueIdentifier>{078d8c86-5f37-4a5f-8392-4a0601c65b7a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 82-Remove Duplicates from Sorted List II">
+      <UniqueIdentifier>{3e9baf43-cba1-47c4-82ee-9c717b988c67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -537,6 +540,9 @@
     <ClInclude Include="Problem 81-Search in Rotated Sorted Array II\Solution81.h">
       <Filter>Problem 81-Search in Rotated Sorted Array II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.h">
+      <Filter>Problem 82-Remove Duplicates from Sorted List II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -799,6 +805,9 @@
     </ClCompile>
     <ClCompile Include="Problem 81-Search in Rotated Sorted Array II\Solution81.cpp">
       <Filter>Problem 81-Search in Rotated Sorted Array II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.cpp">
+      <Filter>Problem 82-Remove Duplicates from Sorted List II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
