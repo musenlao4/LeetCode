@@ -646,6 +646,14 @@ void test82()
 	printf("");
 }
 
+void test84()
+{
+	Solution84 sln;
+	vector<int> heights{ 2,1,5,6,2,3 };
+	int res{ sln.largestRectangleArea(heights) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -755,6 +763,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test82();
+	test84();
 	return 0;
 }

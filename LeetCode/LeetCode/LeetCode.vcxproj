@@ -168,6 +168,7 @@
     <ClInclude Include="Problem 81-Search in Rotated Sorted Array II\Solution81.h" />
     <ClInclude Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.h" />
     <ClInclude Include="Problem 83-Remove Duplicates from Sorted List\Solution83.h" />
+    <ClInclude Include="Problem 84-Largest Rectangle in Histogram\Solution84.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -260,6 +261,7 @@
     <ClCompile Include="Problem 81-Search in Rotated Sorted Array II\Solution81.cpp" />
     <ClCompile Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.cpp" />
     <ClCompile Include="Problem 83-Remove Duplicates from Sorted List\Solution83.cpp" />
+    <ClCompile Include="Problem 84-Largest Rectangle in Histogram\Solution84.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />

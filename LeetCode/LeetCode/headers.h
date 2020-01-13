@@ -62,6 +62,8 @@
 #include "Problem 80-Remove Duplicates from Sorted Array II/Solution80.h"
 #include "Problem 81-Search in Rotated Sorted Array II/Solution81.h"
 #include "Problem 82-Remove Duplicates from Sorted List II/Solution82.h"
+#include "Problem 83-Remove Duplicates from Sorted List/Solution83.h"
+#include "Problem 84-Largest Rectangle in Histogram/Solution84.h"
 #include "Problem 94-Binary Tree Inorder Traversal/Solution94.h"
 #include "Problem 95-Unique Binary Search Trees II/Solution95.h"
 #include "Problem 96-Unique Binary Search Trees/Solution96.h"
