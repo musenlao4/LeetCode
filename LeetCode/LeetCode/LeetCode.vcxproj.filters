@@ -265,6 +265,9 @@
     <Filter Include="Problem 82-Remove Duplicates from Sorted List II">
       <UniqueIdentifier>{3e9baf43-cba1-47c4-82ee-9c717b988c67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 83-Remove Duplicates from Sorted List">
+      <UniqueIdentifier>{21f6cbfc-784d-424e-b46c-7fa8228a1048}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -543,6 +546,9 @@
     <ClInclude Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.h">
       <Filter>Problem 82-Remove Duplicates from Sorted List II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 83-Remove Duplicates from Sorted List\Solution83.h">
+      <Filter>Problem 83-Remove Duplicates from Sorted List</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -808,6 +814,9 @@
     </ClCompile>
     <ClCompile Include="Problem 82-Remove Duplicates from Sorted List II\Solution82.cpp">
       <Filter>Problem 82-Remove Duplicates from Sorted List II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 83-Remove Duplicates from Sorted List\Solution83.cpp">
+      <Filter>Problem 83-Remove Duplicates from Sorted List</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
