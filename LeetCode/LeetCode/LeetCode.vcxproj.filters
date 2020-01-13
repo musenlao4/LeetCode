@@ -256,6 +256,9 @@
     <Filter Include="Problem 79-Word Search">
       <UniqueIdentifier>{733a6b46-ab34-430d-8dbb-07f40c7f50c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 80-Remove Duplicates from Sorted Array II">
+      <UniqueIdentifier>{0d634be6-52d6-42e2-8619-e2985b7aa8d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -525,6 +528,9 @@
     <ClInclude Include="Problem 79-Word Search\Solution79.h">
       <Filter>Problem 79-Word Search</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 80-Remove Duplicates from Sorted Array II\Solution80.h">
+      <Filter>Problem 80-Remove Duplicates from Sorted Array II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -781,6 +787,9 @@
     </ClCompile>
     <ClCompile Include="Problem 79-Word Search\Solution79.cpp">
       <Filter>Problem 79-Word Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 80-Remove Duplicates from Sorted Array II\Solution80.cpp">
+      <Filter>Problem 80-Remove Duplicates from Sorted Array II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
