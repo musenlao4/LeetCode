@@ -271,6 +271,9 @@
     <Filter Include="Problem 84-Largest Rectangle in Histogram">
       <UniqueIdentifier>{c80111ec-2033-4f48-bbd6-480d99ea04f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 85-Maximal Rectangle">
+      <UniqueIdentifier>{cdf54927-bfb0-4cc3-858c-d45d11beae84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -555,6 +558,9 @@
     <ClInclude Include="Problem 84-Largest Rectangle in Histogram\Solution84.h">
       <Filter>Problem 84-Largest Rectangle in Histogram</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 85-Maximal Rectangle\Solution85.h">
+      <Filter>Problem 85-Maximal Rectangle</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -826,6 +832,9 @@
     </ClCompile>
     <ClCompile Include="Problem 84-Largest Rectangle in Histogram\Solution84.cpp">
       <Filter>Problem 84-Largest Rectangle in Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 85-Maximal Rectangle\Solution85.cpp">
+      <Filter>Problem 85-Maximal Rectangle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

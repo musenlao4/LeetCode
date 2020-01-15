@@ -654,6 +654,20 @@ void test84()
 	printf("");
 }
 
+void test85()
+{
+	Solution85 sln;
+	vector<vector<char>> matrix
+	{
+		{'1', '0', '1', '0', '0'},
+		{'1', '0', '1', '1', '1'},
+		{'1', '1', '1', '1', '1'},
+		{'1', '0', '0', '1', '0'},
+	};
+	int res{ sln.maximalRectangle(matrix) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -763,6 +777,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test84();
+	test85();
 	return 0;
 }
