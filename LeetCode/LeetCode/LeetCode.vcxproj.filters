@@ -274,6 +274,9 @@
     <Filter Include="Problem 85-Maximal Rectangle">
       <UniqueIdentifier>{cdf54927-bfb0-4cc3-858c-d45d11beae84}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 86-Partition List">
+      <UniqueIdentifier>{ab86bcc9-4a08-4414-a233-b7c58de0d830}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -561,6 +564,9 @@
     <ClInclude Include="Problem 85-Maximal Rectangle\Solution85.h">
       <Filter>Problem 85-Maximal Rectangle</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 86-Partition List\Solution86.h">
+      <Filter>Problem 86-Partition List</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -835,6 +841,9 @@
     </ClCompile>
     <ClCompile Include="Problem 85-Maximal Rectangle\Solution85.cpp">
       <Filter>Problem 85-Maximal Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 86-Partition List\Solution86.cpp">
+      <Filter>Problem 86-Partition List</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
