@@ -668,6 +668,15 @@ void test85()
 	printf("");
 }
 
+void test87()
+{
+	Solution87 sln;
+	string s1{ "abcdefghijklmnopq" };
+	string s2{ "efghijklmnopqcadb" };
+	bool res{ sln.isScramble(s1, s2) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -777,6 +786,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test85();
+	test87();
 	return 0;
 }
