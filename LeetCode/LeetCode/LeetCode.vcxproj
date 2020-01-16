@@ -172,6 +172,7 @@
     <ClInclude Include="Problem 85-Maximal Rectangle\Solution85.h" />
     <ClInclude Include="Problem 86-Partition List\Solution86.h" />
     <ClInclude Include="Problem 87-Scramble String\Solution87.h" />
+    <ClInclude Include="Problem 88-Merge Sorted Array\Solution88.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -268,6 +269,7 @@
     <ClCompile Include="Problem 85-Maximal Rectangle\Solution85.cpp" />
     <ClCompile Include="Problem 86-Partition List\Solution86.cpp" />
     <ClCompile Include="Problem 87-Scramble String\Solution87.cpp" />
+    <ClCompile Include="Problem 88-Merge Sorted Array\Solution88.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />

@@ -280,6 +280,9 @@
     <Filter Include="Problem 87-Scramble String">
       <UniqueIdentifier>{4b95d3eb-a1c8-4aad-81ff-931c69af6d7c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 88-Merge Sorted Array">
+      <UniqueIdentifier>{6684909d-4e9e-4eba-913d-7616d9e8729d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -573,6 +576,9 @@
     <ClInclude Include="Problem 87-Scramble String\Solution87.h">
       <Filter>Problem 87-Scramble String</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 88-Merge Sorted Array\Solution88.h">
+      <Filter>Problem 88-Merge Sorted Array</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -853,6 +859,9 @@
     </ClCompile>
     <ClCompile Include="Problem 87-Scramble String\Solution87.cpp">
       <Filter>Problem 87-Scramble String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 88-Merge Sorted Array\Solution88.cpp">
+      <Filter>Problem 88-Merge Sorted Array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
