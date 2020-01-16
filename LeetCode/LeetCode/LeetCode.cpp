@@ -677,6 +677,13 @@ void test87()
 	printf("");
 }
 
+void test89()
+{
+	Solution89 sln;
+	vector<int> res{ sln.grayCode(3) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -786,6 +793,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test87();
+	test89();
 	return 0;
 }

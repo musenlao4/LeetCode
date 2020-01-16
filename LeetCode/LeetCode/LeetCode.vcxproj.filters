@@ -283,6 +283,9 @@
     <Filter Include="Problem 88-Merge Sorted Array">
       <UniqueIdentifier>{6684909d-4e9e-4eba-913d-7616d9e8729d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 89-Gray Code">
+      <UniqueIdentifier>{72d22a5b-ca9b-43af-9d77-87173c97e3de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -579,6 +582,9 @@
     <ClInclude Include="Problem 88-Merge Sorted Array\Solution88.h">
       <Filter>Problem 88-Merge Sorted Array</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 89-Gray Code\Solution89.h">
+      <Filter>Problem 89-Gray Code</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -862,6 +868,9 @@
     </ClCompile>
     <ClCompile Include="Problem 88-Merge Sorted Array\Solution88.cpp">
       <Filter>Problem 88-Merge Sorted Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 89-Gray Code\Solution89.cpp">
+      <Filter>Problem 89-Gray Code</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -67,6 +67,7 @@
 #include "Problem 85-Maximal Rectangle/Solution85.h"
 #include "Problem 86-Partition List/Solution86.h"
 #include "Problem 87-Scramble String/Solution87.h"
+#include "Problem 89-Gray Code/Solution89.h"
 #include "Problem 94-Binary Tree Inorder Traversal/Solution94.h"
 #include "Problem 95-Unique Binary Search Trees II/Solution95.h"
 #include "Problem 96-Unique Binary Search Trees/Solution96.h"
