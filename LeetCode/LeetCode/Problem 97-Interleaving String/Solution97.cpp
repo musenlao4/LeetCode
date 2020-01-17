@@ -34,6 +34,7 @@ bool preproc(string &s1, string &s2, string &s3)
 		else
 			return false;
 	}
+	return true;
 }
 
 bool Solution97::isInterleave(string s1, string s2, string s3)
@@ -42,7 +43,21 @@ bool Solution97::isInterleave(string s1, string s2, string s3)
 		return false;
 	if (!preproc(s1, s2, s3))
 		return false;
-	vector<vector<vector<bool>>> dp(s1.length(), vector<vector<bool>>(s2.length(), vector<bool>(s3.length(), false)));
-
-	return false;
+	vector<vector<vector<bool>>> dp(s1.length() + 1, vector<vector<bool>>(s2.length() + 1, vector<bool>(s3.length() + 1, false)));
+	dp[0][0][0] = true;
+	for (int k = 1; k <= s3.length(); ++k)
+	{
+		for (int i = 0; i <= k; ++i)
+		{
+			int j{ k - i };
+			if (i == 0 && j <= s2.length())
+				dp[i][j][k] = dp[i][j - 1][k - 1] && s2.at(j - 1) == s3.at(k - 1);
+			else if (j == 0 && i <= s1.length())
+				dp[i][j][k] = dp[i - 1][j][k - 1] && s1.at(i - 1) == s3.at(k - 1);
+			else if (i <= s1.length() && j <= s2.length())
+				dp[i][j][k] = (dp[i - 1][j][k - 1] && s1.at(i - 1) == s3.at(k - 1))
+					|| (dp[i][j - 1][k - 1] && s2.at(j - 1) == s3.at(k - 1));
+		}
+	}
+	return dp[s1.length()][s2.length()][s3.length()];
 }
