@@ -286,6 +286,9 @@
     <Filter Include="Problem 89-Gray Code">
       <UniqueIdentifier>{72d22a5b-ca9b-43af-9d77-87173c97e3de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 90-Subsets II">
+      <UniqueIdentifier>{c94276ca-0cf2-4463-84dc-0257b36fe7db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -585,6 +588,9 @@
     <ClInclude Include="Problem 89-Gray Code\Solution89.h">
       <Filter>Problem 89-Gray Code</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 90-Subsets II\Solution90.h">
+      <Filter>Problem 90-Subsets II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -871,6 +877,9 @@
     </ClCompile>
     <ClCompile Include="Problem 89-Gray Code\Solution89.cpp">
       <Filter>Problem 89-Gray Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 90-Subsets II\Solution90.cpp">
+      <Filter>Problem 90-Subsets II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

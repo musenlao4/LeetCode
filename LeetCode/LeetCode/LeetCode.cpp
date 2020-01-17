@@ -684,6 +684,14 @@ void test89()
 	printf("");
 }
 
+void test90()
+{
+	Solution90 sln;
+	vector<int> input{ 1, 1 };
+	vector<vector<int>> res{ sln.subsetsWithDup(input) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -793,6 +801,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test89();
+	test90();
 	return 0;
 }
