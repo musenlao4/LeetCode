@@ -724,6 +724,16 @@ void test96()
 	printf("");
 }
 
+void test97()
+{
+	Solution97 sln;
+	string str1{ "aabcc" };
+	string str2{ "dbbca" };
+	string str3{ "aadbbcbcac" };
+	bool res{ sln.isInterleave(str1, str2, str3) };
+	printf("");
+}
+
 void test100()
 {
 	Solution100 sln;
@@ -809,6 +819,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test93();
+	test97();
 	return 0;
 }

@@ -298,6 +298,9 @@
     <Filter Include="Problem 93-Restore IP Addresses">
       <UniqueIdentifier>{156d6046-923f-453a-acc0-afef1af14233}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 97-Interleaving String">
+      <UniqueIdentifier>{e4d65b1c-1e12-4bb3-9f34-01a288712653}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -609,6 +612,9 @@
     <ClInclude Include="Problem 93-Restore IP Addresses\Solution93.h">
       <Filter>Problem 93-Restore IP Addresses</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 97-Interleaving String\Solution97.h">
+      <Filter>Problem 97-Interleaving String</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -907,6 +913,9 @@
     </ClCompile>
     <ClCompile Include="Problem 93-Restore IP Addresses\Solution93.cpp">
       <Filter>Problem 93-Restore IP Addresses</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 97-Interleaving String\Solution97.cpp">
+      <Filter>Problem 97-Interleaving String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
