@@ -692,6 +692,14 @@ void test90()
 	printf("");
 }
 
+void test93()
+{
+	Solution93 sln;
+	string str{ "1111" };
+	vector<string> res{ sln.restoreIpAddresses(str) };
+	printf("");
+}
+
 void test94()
 {
 	Solution94 sln;
@@ -801,6 +809,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test90();
+	test93();
 	return 0;
 }
