@@ -292,6 +292,9 @@
     <Filter Include="Problem 91-Decode Ways">
       <UniqueIdentifier>{018aae56-7a2b-44d8-91bd-981d5d1f1733}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 92-Reverse Linked List II">
+      <UniqueIdentifier>{bc2deed3-3483-4ff3-b708-e7830429d7f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -597,6 +600,9 @@
     <ClInclude Include="Problem 91-Decode Ways\Solution91.h">
       <Filter>Problem 91-Decode Ways</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 92-Reverse Linked List II\Solution92.h">
+      <Filter>Problem 92-Reverse Linked List II</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -889,6 +895,9 @@
     </ClCompile>
     <ClCompile Include="Problem 91-Decode Ways\Solution91.cpp">
       <Filter>Problem 91-Decode Ways</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 92-Reverse Linked List II\Solution92.cpp">
+      <Filter>Problem 92-Reverse Linked List II</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

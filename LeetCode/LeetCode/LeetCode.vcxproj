@@ -176,6 +176,7 @@
     <ClInclude Include="Problem 89-Gray Code\Solution89.h" />
     <ClInclude Include="Problem 90-Subsets II\Solution90.h" />
     <ClInclude Include="Problem 91-Decode Ways\Solution91.h" />
+    <ClInclude Include="Problem 92-Reverse Linked List II\Solution92.h" />
     <ClInclude Include="Problem 94-Binary Tree Inorder Traversal\Solution94.h" />
     <ClInclude Include="Problem 95-Unique Binary Search Trees II\Solution95.h" />
     <ClInclude Include="Problem 96-Unique Binary Search Trees\Solution96.h" />
@@ -276,6 +277,7 @@
     <ClCompile Include="Problem 89-Gray Code\Solution89.cpp" />
     <ClCompile Include="Problem 90-Subsets II\Solution90.cpp" />
     <ClCompile Include="Problem 91-Decode Ways\Solution91.cpp" />
+    <ClCompile Include="Problem 92-Reverse Linked List II\Solution92.cpp" />
     <ClCompile Include="Problem 94-Binary Tree Inorder Traversal\Solution94.cpp" />
     <ClCompile Include="Problem 95-Unique Binary Search Trees II\Solution95.cpp" />
     <ClCompile Include="Problem 96-Unique Binary Search Trees\Solution96.cpp" />
