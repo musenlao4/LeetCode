@@ -289,6 +289,9 @@
     <Filter Include="Problem 90-Subsets II">
       <UniqueIdentifier>{c94276ca-0cf2-4463-84dc-0257b36fe7db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 91-Decode Ways">
+      <UniqueIdentifier>{018aae56-7a2b-44d8-91bd-981d5d1f1733}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -591,6 +594,9 @@
     <ClInclude Include="Problem 90-Subsets II\Solution90.h">
       <Filter>Problem 90-Subsets II</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 91-Decode Ways\Solution91.h">
+      <Filter>Problem 91-Decode Ways</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -880,6 +886,9 @@
     </ClCompile>
     <ClCompile Include="Problem 90-Subsets II\Solution90.cpp">
       <Filter>Problem 90-Subsets II</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 91-Decode Ways\Solution91.cpp">
+      <Filter>Problem 91-Decode Ways</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
