@@ -304,6 +304,9 @@
     <Filter Include="Problem 98-Validate Binary Search Tree">
       <UniqueIdentifier>{6757d82a-3108-446a-8677-c045ab07da73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 99-Recover Binary Search Tree">
+      <UniqueIdentifier>{77b8806e-eeec-4926-861f-3353cbe169fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -621,6 +624,9 @@
     <ClInclude Include="Problem 98-Validate Binary Search Tree\Solution98.h">
       <Filter>Problem 98-Validate Binary Search Tree</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 99-Recover Binary Search Tree\Solution99.h">
+      <Filter>Problem 99-Recover Binary Search Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -925,6 +931,9 @@
     </ClCompile>
     <ClCompile Include="Problem 98-Validate Binary Search Tree\Solution98.cpp">
       <Filter>Problem 98-Validate Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 99-Recover Binary Search Tree\Solution99.cpp">
+      <Filter>Problem 99-Recover Binary Search Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

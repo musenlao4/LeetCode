@@ -734,6 +734,37 @@ void test97()
 	printf("");
 }
 
+void test99()
+{
+	Solution99 sln;
+	TreeNode *root{ NULL };
+	vector<int> vec{ 1, 3, NULL, NULL, 2 };
+	vector<TreeNode *> vecTree{};
+	for (int i = 0; i < vec.size(); i++)
+	{
+		if (i == 0)
+		{
+			root = new TreeNode(vec[i]);
+			vecTree.emplace_back(root);
+		}
+		else
+		{
+			TreeNode* node{ NULL };
+			if (vec[i] != NULL)
+				node = new TreeNode(vec[i]);
+			int parent{ (i - 1) / 2 };
+			bool isLeft{ (i - 1) % 2 == 0 };
+			if (isLeft)
+				vecTree[parent]->left = node;
+			else
+				vecTree[parent]->right = node;
+			vecTree.emplace_back(node);
+		}
+	}
+	sln.recoverTree(root);
+	printf("");
+}
+
 void test100()
 {
 	Solution100 sln;
@@ -819,6 +850,6 @@ void test633()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test97();
+	test99();
 	return 0;
 }
