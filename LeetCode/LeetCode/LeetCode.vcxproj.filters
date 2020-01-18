@@ -301,6 +301,9 @@
     <Filter Include="Problem 97-Interleaving String">
       <UniqueIdentifier>{e4d65b1c-1e12-4bb3-9f34-01a288712653}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 98-Validate Binary Search Tree">
+      <UniqueIdentifier>{6757d82a-3108-446a-8677-c045ab07da73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -615,6 +618,9 @@
     <ClInclude Include="Problem 97-Interleaving String\Solution97.h">
       <Filter>Problem 97-Interleaving String</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 98-Validate Binary Search Tree\Solution98.h">
+      <Filter>Problem 98-Validate Binary Search Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -916,6 +922,9 @@
     </ClCompile>
     <ClCompile Include="Problem 97-Interleaving String\Solution97.cpp">
       <Filter>Problem 97-Interleaving String</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 98-Validate Binary Search Tree\Solution98.cpp">
+      <Filter>Problem 98-Validate Binary Search Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
