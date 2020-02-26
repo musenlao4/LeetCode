@@ -307,6 +307,33 @@
     <Filter Include="Problem 99-Recover Binary Search Tree">
       <UniqueIdentifier>{77b8806e-eeec-4926-861f-3353cbe169fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Problem 5315-Maximum 69 Number">
+      <UniqueIdentifier>{a2939579-7fc0-4eb9-a808-4ecd6f7fc32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 5316-Print Words Vertically">
+      <UniqueIdentifier>{43d173a3-2cf0-4686-86cc-cb4336aa547d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 5317-Delete Leaves With a Given Value">
+      <UniqueIdentifier>{a8b74983-931f-4d0a-b27d-7edd5d191462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 5318-Minimum Number of Taps to Open to Water a Garden">
+      <UniqueIdentifier>{1a0caea7-7893-4fbd-a694-1d86754ba421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 105-Construct Binary Tree from Preorder and Inorder Traversal">
+      <UniqueIdentifier>{1db53e79-ed8d-46e2-9327-bfd2c06e3727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 106-Construct Binary Tree from Inorder and Postorder Traversal">
+      <UniqueIdentifier>{2ab8b95d-14ab-402a-b487-02c97b0cb731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 123-Best Time to Buy and Sell Stock III">
+      <UniqueIdentifier>{aca02edd-63ae-4186-b371-182b973d8283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 5169-Number of Days Between Two Dates">
+      <UniqueIdentifier>{5e25f976-bcb7-40b5-9f56-70ad89d2e998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problem 125-Valid Palindrome">
+      <UniqueIdentifier>{7064618b-e982-41e3-ae90-485312f36ab4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -627,6 +654,33 @@
     <ClInclude Include="Problem 99-Recover Binary Search Tree\Solution99.h">
       <Filter>Problem 99-Recover Binary Search Tree</Filter>
     </ClInclude>
+    <ClInclude Include="Problem 5315-Maximum 69 Number\Solution5315.h">
+      <Filter>Problem 5315-Maximum 69 Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 5316-Print Words Vertically\Solution5316.h">
+      <Filter>Problem 5316-Print Words Vertically</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 5317-Delete Leaves With a Given Value\Solution5317.h">
+      <Filter>Problem 5317-Delete Leaves With a Given Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 5318-Minimum Number of Taps to Open to Water a Garden\Solution5318.h">
+      <Filter>Problem 5318-Minimum Number of Taps to Open to Water a Garden</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 105-Construct Binary Tree from Preorder and Inorder Traversal\Solution105.h">
+      <Filter>Problem 105-Construct Binary Tree from Preorder and Inorder Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 106-Construct Binary Tree from Inorder and Postorder Traversal\Solution106.h">
+      <Filter>Problem 106-Construct Binary Tree from Inorder and Postorder Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 123-Best Time to Buy and Sell Stock III\Solution123.h">
+      <Filter>Problem 123-Best Time to Buy and Sell Stock III</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 5169-Number of Days Between Two Dates\Solution5169.h">
+      <Filter>Problem 5169-Number of Days Between Two Dates</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 125-Valid Palindrome\Solution125.h">
+      <Filter>Problem 125-Valid Palindrome</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -934,6 +988,33 @@
     </ClCompile>
     <ClCompile Include="Problem 99-Recover Binary Search Tree\Solution99.cpp">
       <Filter>Problem 99-Recover Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5315-Maximum 69 Number\Solution5315.cpp">
+      <Filter>Problem 5315-Maximum 69 Number</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5316-Print Words Vertically\Solution5316.cpp">
+      <Filter>Problem 5316-Print Words Vertically</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5317-Delete Leaves With a Given Value\Solution5317.cpp">
+      <Filter>Problem 5317-Delete Leaves With a Given Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5318-Minimum Number of Taps to Open to Water a Garden\Solution5318.cpp">
+      <Filter>Problem 5318-Minimum Number of Taps to Open to Water a Garden</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 105-Construct Binary Tree from Preorder and Inorder Traversal\Solution105.cpp">
+      <Filter>Problem 105-Construct Binary Tree from Preorder and Inorder Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 106-Construct Binary Tree from Inorder and Postorder Traversal\Solution106.cpp">
+      <Filter>Problem 106-Construct Binary Tree from Inorder and Postorder Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 123-Best Time to Buy and Sell Stock III\Solution123.cpp">
+      <Filter>Problem 123-Best Time to Buy and Sell Stock III</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5169-Number of Days Between Two Dates\Solution5169.cpp">
+      <Filter>Problem 5169-Number of Days Between Two Dates</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 125-Valid Palindrome\Solution125.cpp">
+      <Filter>Problem 125-Valid Palindrome</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

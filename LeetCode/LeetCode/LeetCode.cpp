@@ -793,6 +793,22 @@ void test115()
 	printf("");
 }
 
+void test123()
+{
+	Solution123 sln;
+	vector<int> input{ 3,2,6,5,0,3 };
+	int max{ sln.maxProfit(input) };
+	printf("");
+}
+
+void test125()
+{
+	Solution125 sln;
+	string str{ "race a car" };
+	bool ret{ sln.isPalindrome(str) };
+	printf("");
+}
+
 void test146()
 {
 	Solution146 sln;
@@ -848,8 +864,50 @@ void test633()
 	printf("");
 }
 
+void test5169()
+{
+	Solution5169 sln;
+	string date1{ "1971-06-29" };
+	string date2{ "2010-09-23" };
+	int days{ sln.daysBetweenDates(date1, date2) };
+	printf("");
+}
+
+void test5315()
+{
+	Solution5315 sln;
+	int res{ sln.maximum69Number(9669) };
+	printf("");
+}
+
+void test5316()
+{
+	Solution5316 sln;
+	vector<string> res{ sln.printVertically("CONTEST IS COMING") };
+	printf("");
+}
+
+void test5317()
+{
+	Solution5317 sln;
+	TreeNode *root = new TreeNode(1);
+	root->left = new TreeNode(1);
+	root->right = new TreeNode(1);
+	TreeNode *res{ sln.removeLeafNodes(root, 1) };
+	printf("");
+}
+
+void test5318()
+{
+	Solution5318 sln;
+	int n{ 7 };
+	vector<int> ranges{ 1, 2, 1, 0, 2, 1, 0, 1 };
+	int res{ sln.minTaps(n, ranges) };
+	printf("");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test99();
+	test125();
 	return 0;
 }
